@@ -2878,44 +2878,19 @@
      "flower": "Standard / Hybrid Tea Rose",
      "packs": [
       {
-       "id": 40327358283858,
-       "price": 69.98,
-       "stems": 25.0
-      },
-      {
-       "id": 33108257610,
-       "price": 79.98,
+       "id": 21726403887186,
+       "price": 89.98,
        "stems": 50.0
       },
       {
-       "id": 40327359332434,
-       "price": 90.98,
-       "stems": 75.0
-      },
-      {
-       "id": 40327359397970,
-       "price": 99.98,
+       "id": 21726403854418,
+       "price": 127.98,
        "stems": 100.0
-      },
-      {
-       "id": 33108258698,
-       "price": 108.98,
-       "stems": 125.0
-      },
-      {
-       "id": 40327359463506,
-       "price": 158.98,
-       "stems": 150.0
-      },
-      {
-       "id": 40327359529042,
-       "price": 177.98,
-       "stems": 200.0
       }
      ],
-     "perStem": 2.8,
-     "product": "White Roses - Choose from 25 to 200 Stems",
-     "url": "https://bloomingmore.com/products/roses-white"
+     "perStem": 1.8,
+     "product": "Do It Yourself Wired White Roses",
+     "url": "https://bloomingmore.com/products/do-it-yourself-wired-roses-white"
     },
     "10": {
      "flower": "Calla Lily (standard)",
@@ -2988,6 +2963,38 @@
      "product": "White Lisianthus",
      "url": "https://bloomingmore.com/products/white-lisianthus"
     },
+    "17": {
+     "flower": "Scabiosa",
+     "packs": [
+      {
+       "id": 42772428292178,
+       "price": 138.98,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 1.39,
+     "product": "White Improved Scabiosa",
+     "url": "https://bloomingmore.com/products/white-improved-scabiosa"
+    },
+    "18": {
+     "flower": "Stock",
+     "packs": [
+      {
+       "id": 40713758244946,
+       "price": 80.98,
+       "stems": 60.0
+      },
+      {
+       "id": 40713758212178,
+       "price": 118.98,
+       "stems": 140.0
+      }
+     ],
+     "perStem": 1.35,
+     "pinned": true,
+     "product": "Reddish Stock",
+     "url": "https://bloomingmore.com/products/stock-reddish-140-stems"
+    },
     "19": {
      "flower": "Snapdragon",
      "packs": [
@@ -3019,28 +3026,119 @@
      "product": "Garden Roses - White Cloud",
      "url": "https://bloomingmore.com/products/garden-roses-white-cloud"
     },
+    "20": {
+     "flower": "Delphinium / Larkspur",
+     "packs": [
+      {
+       "id": 40799430541394,
+       "price": 122.98,
+       "stems": 80.0
+      },
+      {
+       "id": 40799430574162,
+       "price": 190.98,
+       "stems": 160.0
+      },
+      {
+       "id": 40799430606930,
+       "price": 297.98,
+       "stems": 240.0
+      }
+     ],
+     "perStem": 1.54,
+     "pinned": true,
+     "product": "Delphinium Sky Waltz",
+     "url": "https://bloomingmore.com/products/delphinium-sky-waltz"
+    },
     "21": {
      "flower": "Baby's Breath (Gypsophila)",
      "packs": [
       {
-       "id": 31315398730,
+       "id": 32124759277650,
        "price": 73.98,
        "stems": 42.5
       },
       {
-       "id": 31315398858,
+       "id": 12452647534674,
        "price": 88.98,
        "stems": 68.0
       },
       {
-       "id": 31315398922,
+       "id": 12452647501906,
        "price": 96.98,
        "stems": 85.0
       }
      ],
      "perStem": 1.74,
-     "product": "Baby's Breath - Million Star",
-     "url": "https://bloomingmore.com/products/babys-breath-million-star"
+     "product": "Gypsophila - Mirabella",
+     "url": "https://bloomingmore.com/products/gypsophilia-mirabella"
+    },
+    "22": {
+     "flower": "Waxflower",
+     "packs": [
+      {
+       "id": 12452330602578,
+       "price": 125.98,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 1.26,
+     "product": "Waxflower White",
+     "url": "https://bloomingmore.com/products/waxflower-white-100-stems"
+    },
+    "23": {
+     "flower": "Queen Anne's Lace / Ammi",
+     "packs": [
+      {
+       "id": 40855313285202,
+       "price": 81.98,
+       "stems": 50.0
+      },
+      {
+       "id": 40855313317970,
+       "price": 110.98,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 1.64,
+     "product": "Ammi Majus / Queen Anne's Lace",
+     "url": "https://bloomingmore.com/products/ammimajus"
+    },
+    "24": {
+     "flower": "Solidago / Goldenrod",
+     "packs": [
+      {
+       "id": 40713869557842,
+       "price": 74.98,
+       "stems": 50.0
+      },
+      {
+       "id": 40713869525074,
+       "price": 97.98,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 1.5,
+     "product": "Solidago",
+     "url": "https://bloomingmore.com/products/solidago"
+    },
+    "25": {
+     "flower": "Statice (sinuata)",
+     "packs": [
+      {
+       "id": 42629923668050,
+       "price": 85.98,
+       "stems": 80.0
+      },
+      {
+       "id": 42629923635282,
+       "price": 117.98,
+       "stems": 150.0
+      }
+     ],
+     "perStem": 1.07,
+     "product": "White Statice",
+     "url": "https://bloomingmore.com/products/white-statice"
     },
     "26": {
      "flower": "Hypericum (berries)",
@@ -3082,6 +3180,24 @@
      "perStem": 1.46,
      "product": "White Carnations",
      "url": "https://bloomingmore.com/products/carn-white"
+    },
+    "28": {
+     "flower": "Mini / Spray Carnations",
+     "packs": [
+      {
+       "id": 42316764774482,
+       "price": 99.98,
+       "stems": 125.0
+      },
+      {
+       "id": 42316844892242,
+       "price": 147.98,
+       "stems": 250.0
+      }
+     ],
+     "perStem": 0.8,
+     "product": "Mini Carnation White",
+     "url": "https://bloomingmore.com/products/mini-carnations"
     },
     "29": {
      "flower": "Chrysanthemum \u2013 Football Mum",
@@ -3155,6 +3271,62 @@
      "product": "Yellow Natural Button Pompom Mums",
      "url": "https://bloomingmore.com/products/natural-pompom-button-yellow"
     },
+    "32": {
+     "flower": "Sunflower (standard)",
+     "packs": [
+      {
+       "id": 13031572996178,
+       "price": 80.98,
+       "stems": 40.0
+      },
+      {
+       "id": 13031573028946,
+       "price": 103.98,
+       "stems": 80.0
+      }
+     ],
+     "perStem": 2.02,
+     "product": "Sunflower",
+     "url": "https://bloomingmore.com/products/sunflower"
+    },
+    "33": {
+     "flower": "Gerbera Daisy",
+     "packs": [
+      {
+       "id": 29429106540626,
+       "price": 83.98,
+       "stems": 50.0
+      },
+      {
+       "id": 29429106573394,
+       "price": 110.98,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 1.68,
+     "pinned": true,
+     "product": "White Gerberas",
+     "url": "https://bloomingmore.com/products/white-gerberas"
+    },
+    "34": {
+     "flower": "Alstroemeria",
+     "packs": [
+      {
+       "id": 21344065880146,
+       "price": 74.98,
+       "stems": 50.0
+      },
+      {
+       "id": 21344065912914,
+       "price": 93.98,
+       "stems": 90.0
+      }
+     ],
+     "perStem": 1.5,
+     "pinned": true,
+     "product": "White Alstroemeria",
+     "url": "https://bloomingmore.com/products/alstroemeria-white"
+    },
     "35": {
      "flower": "Freesia",
      "packs": [
@@ -3172,6 +3344,52 @@
      "perStem": 2.25,
      "product": "White Freesia",
      "url": "https://bloomingmore.com/products/white-freesia"
+    },
+    "37": {
+     "flower": "Lilac",
+     "packs": [
+      {
+       "id": 42852256481362,
+       "price": 148.98,
+       "stems": 90.0
+      }
+     ],
+     "perStem": 1.66,
+     "product": "Lilac Campanula",
+     "url": "https://bloomingmore.com/products/lilac-campanula"
+    },
+    "42": {
+     "flower": "Protea \u2013 Pincushion",
+     "packs": [
+      {
+       "id": 12452330471506,
+       "price": 109.98,
+       "stems": 30.0
+      }
+     ],
+     "perStem": 3.67,
+     "pinned": true,
+     "product": "Yellow Pin Cushion Proteas",
+     "url": "https://bloomingmore.com/products/pin-cushion-protea-yellow-30-stems"
+    },
+    "48": {
+     "flower": "Veronica / Speedwell",
+     "packs": [
+      {
+       "id": 21345486274642,
+       "price": 125.98,
+       "stems": 120.0
+      },
+      {
+       "id": 21345486307410,
+       "price": 175.98,
+       "stems": 200.0
+      }
+     ],
+     "perStem": 1.05,
+     "pinned": true,
+     "product": "Skyler White Veronica",
+     "url": "https://bloomingmore.com/products/veronica-skyler-white"
     },
     "49": {
      "flower": "Craspedia (Billy Buttons)",
@@ -3263,6 +3481,25 @@
      "product": "Baby Blue Eucalyptus",
      "url": "https://bloomingmore.com/products/eucalyptus-natural-baby-blue"
     },
+    "55": {
+     "flower": "Italian Ruscus",
+     "packs": [
+      {
+       "id": 42147869163602,
+       "price": 179.98,
+       "stems": 60.0
+      },
+      {
+       "id": 42147869130834,
+       "price": 314.98,
+       "stems": 125.0
+      }
+     ],
+     "perStem": 3.0,
+     "pinned": true,
+     "product": "Italian Ruscus",
+     "url": "https://bloomingmore.com/products/italian-ruscus-25-bunches"
+    },
     "56": {
      "flower": "Israeli Ruscus",
      "packs": [
@@ -3287,6 +3524,30 @@
      "product": "Israeli Green Ruscus",
      "url": "https://bloomingmore.com/products/ruscus-natural-green"
     },
+    "6": {
+     "flower": "Ranunculus",
+     "packs": [
+      {
+       "id": 39942190497874,
+       "price": 120.98,
+       "stems": 60.0
+      },
+      {
+       "id": 5839663857693,
+       "price": 205.98,
+       "stems": 140.0
+      },
+      {
+       "id": 5839663890461,
+       "price": 273.98,
+       "stems": 200.0
+      }
+     ],
+     "perStem": 2.02,
+     "pinned": true,
+     "product": "Ranunculus White",
+     "url": "https://bloomingmore.com/products/ranunculus-white"
+    },
     "60": {
      "flower": "Pittosporum",
      "packs": [
@@ -3304,6 +3565,57 @@
      "perStem": 1.46,
      "product": "Green Pittosporum",
      "url": "https://bloomingmore.com/products/pittosporum-green"
+    },
+    "7": {
+     "flower": "Anemone",
+     "packs": [
+      {
+       "id": 42205629153362,
+       "price": 115.98,
+       "stems": 60.0
+      },
+      {
+       "id": 42205629186130,
+       "price": 193.98,
+       "stems": 140.0
+      },
+      {
+       "id": 42205629218898,
+       "price": 355.98,
+       "stems": 300.0
+      }
+     ],
+     "perStem": 1.93,
+     "pinned": true,
+     "product": "White Levante Anemones",
+     "url": "https://bloomingmore.com/products/anemones-levante-white"
+    },
+    "8": {
+     "flower": "Dahlia (medium\u2013large)",
+     "packs": [
+      {
+       "id": 41067997167698,
+       "price": 90.98,
+       "stems": 20.0
+      }
+     ],
+     "perStem": 4.55,
+     "pinned": true,
+     "product": "Dahlia White Quartz - 20 Stems",
+     "url": "https://bloomingmore.com/products/dahlia-white-col"
+    },
+    "9": {
+     "flower": "Dinner-plate Dahlia",
+     "packs": [
+      {
+       "id": 41067993235538,
+       "price": 107.98,
+       "stems": 20.0
+      }
+     ],
+     "perStem": 5.4,
+     "product": "Dahlia Cafe Au Lait - 20 Stems",
+     "url": "https://bloomingmore.com/products/cafeau-dahlias"
     },
     "9001": {
      "flower": "Lily \u2013 Oriental / Stargazer",
@@ -3369,6 +3681,24 @@
      "product": "Viburnum",
      "url": "https://bloomingmore.com/products/viburnium-green"
     },
+    "9007": {
+     "flower": "Thistle (Eryngium)",
+     "packs": [
+      {
+       "id": 5809592565789,
+       "price": 97.98,
+       "stems": 50.0
+      },
+      {
+       "id": 5809592598557,
+       "price": 134.98,
+       "stems": 90.0
+      }
+     ],
+     "perStem": 1.96,
+     "product": "Blue lagoon Eryngium",
+     "url": "https://bloomingmore.com/products/eringium-blue-lagoon"
+    },
     "9012": {
      "flower": "Butterfly Ranunculus",
      "packs": [
@@ -3386,6 +3716,20 @@
      "perStem": 2.12,
      "product": "Ranunculus Butterfly Minoan",
      "url": "https://bloomingmore.com/products/ranunculus-butterfly-minoan"
+    },
+    "9021": {
+     "flower": "Pampas Grass (dried)",
+     "packs": [
+      {
+       "id": 39644891512914,
+       "price": 77.98,
+       "stems": 25.0
+      }
+     ],
+     "perStem": 3.12,
+     "pinned": true,
+     "product": "Dried Pampas",
+     "url": "https://bloomingmore.com/products/pampas-dry-standard"
     }
    },
    "site": "https://bloomingmore.com"
@@ -3707,6 +4051,30 @@
      "perStem": 2.33,
      "product": "Queen Anne's Lace (Ammi Majus) White Filler",
      "url": "https://flowerexplosion.com/products/ammi-majus-white-filler"
+    },
+    "25": {
+     "flower": "Statice (sinuata)",
+     "packs": [
+      {
+       "id": 39841721942103,
+       "price": 104.98,
+       "stems": 60.0
+      },
+      {
+       "id": 39841721974871,
+       "price": 149.98,
+       "stems": 120.0
+      },
+      {
+       "id": 39841722007639,
+       "price": 289.98,
+       "stems": 240.0
+      }
+     ],
+     "perStem": 1.75,
+     "pinned": true,
+     "product": "White Statice",
+     "url": "https://flowerexplosion.com/products/white-statice"
     },
     "26": {
      "flower": "Hypericum (berries)",
@@ -4536,6 +4904,20 @@
      "product": "Small Bloom Baby's Breath Flower",
      "url": "https://flowermoxie.com/products/small-million-star-baby-s-breath-flower"
     },
+    "22": {
+     "flower": "Waxflower",
+     "packs": [
+      {
+       "id": 43218052022360,
+       "price": 315.0,
+       "stems": 126.0
+      }
+     ],
+     "perStem": 2.5,
+     "pinned": true,
+     "product": "White Wax Flower",
+     "url": "https://flowermoxie.com/products/white-wax-flower-1"
+    },
     "23": {
      "flower": "Queen Anne's Lace / Ammi",
      "packs": [
@@ -4747,6 +5129,30 @@
      "product": "Creamy Blush Majolika Spray Roses",
      "url": "https://flowermoxie.com/products/creamy-blush-majolika-spray-roses"
     },
+    "31": {
+     "flower": "Button Mum / Pompon",
+     "packs": [
+      {
+       "id": 43146572857432,
+       "price": 145.0,
+       "stems": 35.0
+      },
+      {
+       "id": 43146572890200,
+       "price": 240.0,
+       "stems": 70.0
+      },
+      {
+       "id": 43146586390616,
+       "price": 285.0,
+       "stems": 105.0
+      }
+     ],
+     "perStem": 4.14,
+     "pinned": true,
+     "product": "Dusty Blue Cushion Pom Flower",
+     "url": "https://flowermoxie.com/products/dusty-blue-cushion-pom-flower"
+    },
     "32": {
      "flower": "Sunflower (standard)",
      "packs": [
@@ -4797,6 +5203,24 @@
      "perStem": 3.5,
      "product": "White Alstroemeria Flower",
      "url": "https://flowermoxie.com/products/white-alstroemeria-flower"
+    },
+    "36": {
+     "flower": "Iris",
+     "packs": [
+      {
+       "id": 41031378862168,
+       "price": 95.0,
+       "stems": 6.0
+      },
+      {
+       "id": 41031378894936,
+       "price": 160.0,
+       "stems": 10.0
+      }
+     ],
+     "perStem": 15.83,
+     "product": "Red Iris Heliconia",
+     "url": "https://flowermoxie.com/products/bulk-red-iris-heliconias"
     },
     "42": {
      "flower": "Protea \u2013 Pincushion",
@@ -4961,6 +5385,83 @@
      "product": "Broad Leaf Dusty Miller Greenery",
      "url": "https://flowermoxie.com/products/dusty-miller-greenery"
     },
+    "51": {
+     "flower": "Eucalyptus \u2013 Silver Dollar",
+     "packs": [
+      {
+       "id": 43745732100184,
+       "price": 78.0,
+       "stems": 30.0
+      },
+      {
+       "id": 40980433666136,
+       "price": 100.0,
+       "stems": 50.0
+      },
+      {
+       "id": 43745732132952,
+       "price": 144.0,
+       "stems": 80.0
+      },
+      {
+       "id": 40980433698904,
+       "price": 160.0,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 2.6,
+     "pinned": true,
+     "product": "Silver Dollar Eucalyptus Greenery",
+     "url": "https://flowermoxie.com/products/silver-dollar-eucalyptus-greenery"
+    },
+    "52": {
+     "flower": "Eucalyptus \u2013 Seeded",
+     "packs": [
+      {
+       "id": 43123096387672,
+       "price": 160.0,
+       "stems": 32.5
+      },
+      {
+       "id": 43123096420440,
+       "price": 250.0,
+       "stems": 65.0
+      }
+     ],
+     "perStem": 4.92,
+     "pinned": true,
+     "product": "Seeded Eucalyptus Greenery",
+     "url": "https://flowermoxie.com/products/seeded-eucalyptus-greenery-1"
+    },
+    "54": {
+     "flower": "Eucalyptus \u2013 Baby Blue",
+     "packs": [
+      {
+       "id": 43745732296792,
+       "price": 78.0,
+       "stems": 30.0
+      },
+      {
+       "id": 40985568411736,
+       "price": 100.0,
+       "stems": 50.0
+      },
+      {
+       "id": 43745732329560,
+       "price": 144.0,
+       "stems": 80.0
+      },
+      {
+       "id": 40985568444504,
+       "price": 160.0,
+       "stems": 100.0
+      }
+     ],
+     "perStem": 2.6,
+     "pinned": true,
+     "product": "Baby Eucalyptus Greenery",
+     "url": "https://flowermoxie.com/products/baby-eucalyptus-greenery"
+    },
     "58": {
      "flower": "Salal / Lemon Leaf",
      "packs": [
@@ -5017,6 +5518,40 @@
      "product": "White Curly Ranunculus Flower",
      "url": "https://flowermoxie.com/products/white-pon-pon-ranunculus-flower"
     },
+    "60": {
+     "flower": "Pittosporum",
+     "packs": [
+      {
+       "id": 43748337221720,
+       "price": 114.0,
+       "stems": 19.5
+      },
+      {
+       "id": 43199606980696,
+       "price": 140.0,
+       "stems": 32.5
+      },
+      {
+       "id": 43748337254488,
+       "price": 160.0,
+       "stems": 52.0
+      },
+      {
+       "id": 43199607013464,
+       "price": 180.0,
+       "stems": 65.0
+      },
+      {
+       "id": 40980444872792,
+       "price": 240.0,
+       "stems": 97.5
+      }
+     ],
+     "perStem": 5.85,
+     "pinned": true,
+     "product": "Silver Queen Italian Pittosporum Greenery",
+     "url": "https://flowermoxie.com/products/silver-queen-pittosporum-greenery"
+    },
     "66": {
      "flower": "Monstera / Tropical Leaf",
      "packs": [
@@ -5054,34 +5589,14 @@
      "flower": "Palm / Fan Palm",
      "packs": [
       {
-       "id": 43748325687384,
-       "price": 105.0,
-       "stems": 30.0
-      },
-      {
-       "id": 43197205577816,
-       "price": 125.0,
-       "stems": 50.0
-      },
-      {
-       "id": 43748325720152,
-       "price": 140.0,
-       "stems": 80.0
-      },
-      {
-       "id": 43197205610584,
-       "price": 150.0,
+       "id": 41031397703768,
+       "price": 180.0,
        "stems": 100.0
-      },
-      {
-       "id": 40985528434776,
-       "price": 188.0,
-       "stems": 150.0
       }
      ],
-     "perStem": 3.5,
-     "product": "Robellini Palm Greenery",
-     "url": "https://flowermoxie.com/products/robellini-palm-greenery"
+     "perStem": 1.8,
+     "product": "Accordeon Palm Greeenry",
+     "url": "https://flowermoxie.com/products/bulk-accordeon-palm"
     },
     "69": {
      "flower": "Aspidistra / Cast Iron Leaf",
@@ -5291,6 +5806,25 @@
      "perStem": 3.5,
      "product": "White Butterfly Ranunculus",
      "url": "https://flowermoxie.com/products/white-butterfly-ranunculus"
+    },
+    "9016": {
+     "flower": "Eucalyptus \u2013 Gunni",
+     "packs": [
+      {
+       "id": 43123087310936,
+       "price": 160.0,
+       "stems": 32.5
+      },
+      {
+       "id": 43123087343704,
+       "price": 250.0,
+       "stems": 65.0
+      }
+     ],
+     "perStem": 4.92,
+     "pinned": true,
+     "product": "Gunni Eucalyptus Greenery",
+     "url": "https://flowermoxie.com/products/gunni-eucalyptus-greenery-1"
     },
     "9021": {
      "flower": "Pampas Grass (dried)",
