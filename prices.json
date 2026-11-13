@@ -231,6 +231,7 @@
    "perStem": 7.25,
    "perStemBulk": 2.32,
    "product": "White Lisianthus Wholesale Flower",
+   "stemsPerBunch": 10,
    "url": "https://fiftyflowers.com/products/lisianthus-white-wholesale-flower"
   },
   "17": {
@@ -438,6 +439,7 @@
    "perStem": 11.43,
    "perStemBulk": 1.93,
    "product": "Bulk Baby's Breath Flower Million Star",
+   "stemsPerBunch": 7,
    "url": "https://fiftyflowers.com/products/bulk-babys-breath-flower-million-star"
   },
   "22": {
@@ -475,6 +477,7 @@
    "perStem": 4.2,
    "perStemBulk": 2.32,
    "product": "White Wax Flowers",
+   "stemsPerBunch": 10,
    "url": "https://fiftyflowers.com/products/white-wax-flowers"
   },
   "23": {
@@ -805,6 +808,7 @@
    "perStem": 2.56,
    "perStemBulk": 1.15,
    "product": "Zip Mini Button Pom White Flower",
+   "stemsPerBunch": 7.5,
    "url": "https://fiftyflowers.com/products/zip-mini-button-pom-white-flower"
   },
   "32": {
@@ -1427,6 +1431,7 @@
    "perStem": 4.77,
    "perStemBulk": 2.5,
    "product": "Silver Dollar Eucalyptus Greens",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/products/silver-dollar-eucalyptus-greens"
   },
   "52": {
@@ -1459,6 +1464,7 @@
    "perStem": 4.77,
    "perStemBulk": 2.58,
    "product": "Seeded Eucalyptus Greenery",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/products/Seeded-Eucalyptus-Greenery"
   },
   "53": {
@@ -1481,6 +1487,7 @@
    "perStem": 3.46,
    "perStemBulk": 2.77,
    "product": "Choose Your Own Eucalyptus DIY Greenery Kit",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/collections/greenery/products/choose-your-own-eucalyptus-greenery-premium-pack"
   },
   "54": {
@@ -1518,6 +1525,7 @@
    "perStem": 4.77,
    "perStemBulk": 2.28,
    "product": "Baby Eucalyptus Greenery",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery"
   },
   "55": {
@@ -1555,6 +1563,7 @@
    "perStem": 6.15,
    "perStemBulk": 2.38,
    "product": "Italian Ruscus Greenery",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/products/italian-ruscus-greenery"
   },
   "56": {
@@ -1592,6 +1601,7 @@
    "perStem": 1.6,
    "perStemBulk": 0.74,
    "product": "Israeli Ruscus Greenery",
+   "stemsPerBunch": 15,
    "url": "https://fiftyflowers.com/products/israeli-ruscus-greenery"
   },
   "57": {
@@ -1629,6 +1639,7 @@
    "perStem": 4.46,
    "perStemBulk": 1.92,
    "product": "Wedding Greenery Mix",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/products/wedding-greenery-mix"
   },
   "58": {
@@ -1666,6 +1677,7 @@
    "perStem": 2.96,
    "perStemBulk": 1.39,
    "product": "Salal Lemon Leaf Greenery",
+   "stemsPerBunch": 11.5,
    "url": "https://fiftyflowers.com/products/salal-lemon-leaf-greenery"
   },
   "59": {
@@ -1703,6 +1715,7 @@
    "perStem": 4.67,
    "perStemBulk": 2.0,
    "product": "Fresh Cut Olive Greenery",
+   "stemsPerBunch": 7.5,
    "url": "https://fiftyflowers.com/products/fresh-cut-olive-greenery"
   },
   "6": {
@@ -1782,6 +1795,7 @@
    "perStem": 3.67,
    "perStemBulk": 1.61,
    "product": "Pittosporum Greenery",
+   "stemsPerBunch": 9,
    "url": "https://fiftyflowers.com/products/pittosporum-greenery"
   },
   "61": {
@@ -1809,6 +1823,7 @@
    "perStem": 2.0,
    "perStemBulk": 1.24,
    "product": "Sword Fern Greens",
+   "stemsPerBunch": 9,
    "url": "https://fiftyflowers.com/products/sword-fern-greens"
   },
   "62": {
@@ -1846,6 +1861,7 @@
    "perStem": 2.2,
    "perStemBulk": 0.89,
    "product": "Cascading Ivy Greenery",
+   "stemsPerBunch": 15,
    "url": "https://fiftyflowers.com/products/cascading-ivy-greenery"
   },
   "64": {
@@ -1883,6 +1899,7 @@
    "perStem": 2.33,
    "perStemBulk": 1.16,
    "product": "Huckleberry Greens",
+   "stemsPerBunch": 15,
    "url": "https://fiftyflowers.com/products/huckleberry-greens"
   },
   "65": {
@@ -1910,6 +1927,7 @@
    "perStem": 5.87,
    "perStemBulk": 3.48,
    "product": "Magnolia Greenery",
+   "stemsPerBunch": 5,
    "url": "https://fiftyflowers.com/products/magnolia-greenery"
   },
   "66": {
@@ -1949,6 +1967,7 @@
    "perStem": 4.2,
    "perStemBulk": 4.2,
    "product": "Palmetto Fans Green Bulk Filler",
+   "stemsPerBunch": 5,
    "url": "https://fiftyflowers.com/products/palmetto-fans-green-bulk-filler"
   },
   "68": {
@@ -2008,6 +2027,7 @@
    "perStem": 2.0,
    "perStemBulk": 0.54,
    "product": "Aspidistra Leaf Greenery",
+   "stemsPerBunch": 15,
    "url": "https://fiftyflowers.com/products/aspidistra-leaf-greenery"
   },
   "7": {
@@ -2082,6 +2102,7 @@
    "perStem": 2.78,
    "perStemBulk": 1.04,
    "product": "Plumosa Fern Greenery",
+   "stemsPerBunch": 9,
    "url": "https://fiftyflowers.com/products/plumosa-fern-greenery"
   },
   "8": {
@@ -2589,6 +2610,7 @@
    "perStem": 5.08,
    "perStemBulk": 3.64,
    "product": "Gunnii Eucalyptus Greens",
+   "stemsPerBunch": 6.5,
    "url": "https://fiftyflowers.com/products/gunnii-eucalyptus-greens"
   },
   "9017": {
@@ -2688,6 +2710,7 @@
    "perStem": 3.5,
    "perStemBulk": 1.77,
    "product": "Lamb's Ear Greenery",
+   "stemsPerBunch": 10,
    "url": "https://fiftyflowers.com/products/lambs-ear-greenery"
   },
   "9019": {
@@ -2841,6 +2864,7 @@
    "perStem": 0.6,
    "perStemBulk": 0.46,
    "product": "Rust Brown Dried Bunny Tail Grass",
+   "stemsPerBunch": 32.5,
    "url": "https://fiftyflowers.com/products/rust-brown-dried-bunny-tail-grass"
   }
  },
