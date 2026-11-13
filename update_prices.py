@@ -113,7 +113,10 @@ def main():
             product = load_product(item["url"])
             options = options_for(product)
             if not options:
-                raise ValueError("no pack with a stem count and price")
+                labels = [" ".join(str(x) for x in [v.get("title"), v.get("option1"), v.get("option2")] if x) + " @" + str(v.get("price")) for v in product.get("variants", [])][:4]
+                text = re.sub(r"<[^>]+>", " ", str(product.get("description") or product.get("body_html") or ""))
+                hint = " ".join(re.findall(r"[^.]{0,60}(?:bunch|stem)[^.]{0,60}", text, re.I)[:3])
+                raise ValueError("no pack with a stem count and price | variants: %s | text: %s" % (labels, hint[:300]))
             small, bulk = options[0], options[-1]
             prices[flower_id] = {
                 # what a small order pays: the smallest pack. The tool uses this one.
