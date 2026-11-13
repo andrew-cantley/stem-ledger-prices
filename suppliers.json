@@ -1,0 +1,656 @@
+{
+ "_note": "Other stores whose public catalogs can be read. Each flower is matched to a product by name, plain bunches only, white or ivory first. Matches are automatic, so the product name is recorded beside each price.",
+ "suppliers": [
+  {
+   "name": "BunchesDirect",
+   "site": "https://bunchesdirect.com"
+  },
+  {
+   "name": "Flower Moxie",
+   "site": "https://flowermoxie.com"
+  },
+  {
+   "name": "Bloomingmore",
+   "site": "https://bloomingmore.com"
+  },
+  {
+   "name": "Flower Explosion",
+   "site": "https://flowerexplosion.com"
+  },
+  {
+   "name": "Bloom Culture Flowers",
+   "site": "https://bloomcultureflowers.com"
+  }
+ ],
+ "flowers": {
+  "1": {
+   "flower": "Standard / Hybrid Tea Rose",
+   "all": [
+    "rose"
+   ],
+   "not": []
+  },
+  "2": {
+   "flower": "Garden Rose / David Austin",
+   "all": [
+    "garden rose"
+   ],
+   "not": []
+  },
+  "3": {
+   "flower": "Spray Rose",
+   "all": [
+    "spray rose"
+   ],
+   "not": []
+  },
+  "4": {
+   "flower": "Peony",
+   "all": [
+    "peony|peonies"
+   ],
+   "not": []
+  },
+  "5": {
+   "flower": "Hydrangea (full mophead)",
+   "all": [
+    "hydrangea"
+   ],
+   "not": [
+    "mini",
+    "petite"
+   ]
+  },
+  "6": {
+   "flower": "Ranunculus",
+   "all": [
+    "ranunculus"
+   ],
+   "not": []
+  },
+  "7": {
+   "flower": "Anemone",
+   "all": [
+    "anemone"
+   ],
+   "not": []
+  },
+  "8": {
+   "flower": "Dahlia (medium–large)",
+   "all": [
+    "dahlia"
+   ],
+   "not": [
+    "dinner",
+    "cafe au lait",
+    "ball",
+    "pom"
+   ]
+  },
+  "9": {
+   "flower": "Dinner-plate Dahlia",
+   "all": [
+    "dahlia",
+    "dinner|cafe au lait"
+   ],
+   "not": []
+  },
+  "9013": {
+   "flower": "Dahlia – Ball",
+   "all": [
+    "dahlia",
+    "ball"
+   ],
+   "not": []
+  },
+  "10": {
+   "flower": "Calla Lily (standard)",
+   "all": [
+    "calla"
+   ],
+   "not": [
+    "mini"
+   ]
+  },
+  "11": {
+   "flower": "Lily – Asiatic",
+   "all": [
+    "lily|lilies",
+    "asiatic"
+   ],
+   "not": []
+  },
+  "9001": {
+   "flower": "Lily – Oriental / Stargazer",
+   "all": [
+    "lily|lilies",
+    "oriental|stargazer"
+   ],
+   "not": []
+  },
+  "12": {
+   "flower": "Orchid – Phalaenopsis",
+   "all": [
+    "phalaenopsis"
+   ],
+   "not": []
+  },
+  "13": {
+   "flower": "Orchid – Cymbidium",
+   "all": [
+    "cymbidium"
+   ],
+   "not": [
+    "mini"
+   ]
+  },
+  "14": {
+   "flower": "Tulip",
+   "all": [
+    "tulip"
+   ],
+   "not": [
+    "parrot",
+    "double",
+    "french"
+   ]
+  },
+  "15": {
+   "flower": "Sweet Pea",
+   "all": [
+    "sweet pea"
+   ],
+   "not": []
+  },
+  "16": {
+   "flower": "Lisianthus",
+   "all": [
+    "lisianthus"
+   ],
+   "not": []
+  },
+  "17": {
+   "flower": "Scabiosa",
+   "all": [
+    "scabiosa"
+   ],
+   "not": [
+    "pod"
+   ]
+  },
+  "18": {
+   "flower": "Stock",
+   "all": [
+    "stock"
+   ],
+   "not": []
+  },
+  "19": {
+   "flower": "Snapdragon",
+   "all": [
+    "snapdragon"
+   ],
+   "not": []
+  },
+  "20": {
+   "flower": "Delphinium / Larkspur",
+   "all": [
+    "delphinium|larkspur"
+   ],
+   "not": []
+  },
+  "21": {
+   "flower": "Baby's Breath (Gypsophila)",
+   "all": [
+    "baby's breath|babys breath|baby’s breath|gypsophila"
+   ],
+   "not": []
+  },
+  "22": {
+   "flower": "Waxflower",
+   "all": [
+    "wax flower|waxflower"
+   ],
+   "not": []
+  },
+  "23": {
+   "flower": "Queen Anne's Lace / Ammi",
+   "all": [
+    "queen anne|ammi"
+   ],
+   "not": []
+  },
+  "24": {
+   "flower": "Solidago / Goldenrod",
+   "all": [
+    "solidago|goldenrod"
+   ],
+   "not": []
+  },
+  "25": {
+   "flower": "Statice (sinuata)",
+   "all": [
+    "statice"
+   ],
+   "not": []
+  },
+  "9003": {
+   "flower": "Limonium (Misty)",
+   "all": [
+    "limonium"
+   ],
+   "not": []
+  },
+  "26": {
+   "flower": "Hypericum (berries)",
+   "all": [
+    "hypericum"
+   ],
+   "not": []
+  },
+  "27": {
+   "flower": "Carnations (standard)",
+   "all": [
+    "carnation"
+   ],
+   "not": [
+    "mini",
+    "spray"
+   ]
+  },
+  "28": {
+   "flower": "Mini / Spray Carnations",
+   "all": [
+    "carnation",
+    "mini|spray"
+   ],
+   "not": []
+  },
+  "29": {
+   "flower": "Chrysanthemum – Football Mum",
+   "all": [
+    "football mum"
+   ],
+   "not": []
+  },
+  "30": {
+   "flower": "Chrysanthemum – Spider / Decorative",
+   "all": [
+    "spider",
+    "mum|chrysanthemum"
+   ],
+   "not": []
+  },
+  "31": {
+   "flower": "Button Mum / Pompon",
+   "all": [
+    "button",
+    "pom|mum"
+   ],
+   "not": []
+  },
+  "32": {
+   "flower": "Sunflower (standard)",
+   "all": [
+    "sunflower"
+   ],
+   "not": [
+    "mini",
+    "teddy"
+   ]
+  },
+  "33": {
+   "flower": "Gerbera Daisy",
+   "all": [
+    "gerbera"
+   ],
+   "not": [
+    "mini"
+   ]
+  },
+  "34": {
+   "flower": "Alstroemeria",
+   "all": [
+    "alstroemeria"
+   ],
+   "not": []
+  },
+  "35": {
+   "flower": "Freesia",
+   "all": [
+    "freesia"
+   ],
+   "not": []
+  },
+  "36": {
+   "flower": "Iris",
+   "all": [
+    "iris"
+   ],
+   "not": []
+  },
+  "37": {
+   "flower": "Lilac",
+   "all": [
+    "lilac"
+   ],
+   "not": []
+  },
+  "38": {
+   "flower": "Lily of the Valley",
+   "all": [
+    "lily of the valley"
+   ],
+   "not": []
+  },
+  "39": {
+   "flower": "Hellebore",
+   "all": [
+    "hellebore"
+   ],
+   "not": []
+  },
+  "40": {
+   "flower": "Amaryllis",
+   "all": [
+    "amaryllis"
+   ],
+   "not": []
+  },
+  "41": {
+   "flower": "Anthurium",
+   "all": [
+    "anthurium"
+   ],
+   "not": []
+  },
+  "42": {
+   "flower": "Protea – Pincushion",
+   "all": [
+    "pincushion"
+   ],
+   "not": []
+  },
+  "9004": {
+   "flower": "Protea – King",
+   "all": [
+    "king protea"
+   ],
+   "not": []
+  },
+  "44": {
+   "flower": "Cosmos (chocolate)",
+   "all": [
+    "cosmos"
+   ],
+   "not": []
+  },
+  "45": {
+   "flower": "Celosia – Plume",
+   "all": [
+    "celosia",
+    "plume|feather"
+   ],
+   "not": []
+  },
+  "9005": {
+   "flower": "Celosia – Cockscomb",
+   "all": [
+    "celosia|coxcomb|cockscomb",
+    "cockscomb|coxcomb|brain"
+   ],
+   "not": []
+  },
+  "46": {
+   "flower": "Amaranthus (cascading)",
+   "all": [
+    "amaranthus"
+   ],
+   "not": [
+    "upright"
+   ]
+  },
+  "47": {
+   "flower": "Astilbe",
+   "all": [
+    "astilbe"
+   ],
+   "not": []
+  },
+  "48": {
+   "flower": "Veronica / Speedwell",
+   "all": [
+    "veronica"
+   ],
+   "not": []
+  },
+  "49": {
+   "flower": "Craspedia (Billy Buttons)",
+   "all": [
+    "craspedia|billy"
+   ],
+   "not": []
+  },
+  "50": {
+   "flower": "Dusty Miller",
+   "all": [
+    "dusty miller"
+   ],
+   "not": []
+  },
+  "51": {
+   "flower": "Eucalyptus – Silver Dollar",
+   "all": [
+    "silver dollar"
+   ],
+   "not": []
+  },
+  "52": {
+   "flower": "Eucalyptus – Seeded",
+   "all": [
+    "seeded",
+    "eucalyptus"
+   ],
+   "not": []
+  },
+  "54": {
+   "flower": "Eucalyptus – Baby Blue",
+   "all": [
+    "baby",
+    "eucalyptus"
+   ],
+   "not": []
+  },
+  "9016": {
+   "flower": "Eucalyptus – Gunni",
+   "all": [
+    "gunni"
+   ],
+   "not": []
+  },
+  "55": {
+   "flower": "Italian Ruscus",
+   "all": [
+    "italian ruscus"
+   ],
+   "not": []
+  },
+  "56": {
+   "flower": "Israeli Ruscus",
+   "all": [
+    "israeli ruscus"
+   ],
+   "not": []
+  },
+  "58": {
+   "flower": "Salal / Lemon Leaf",
+   "all": [
+    "salal|lemon leaf"
+   ],
+   "not": []
+  },
+  "59": {
+   "flower": "Olive Branch",
+   "all": [
+    "olive"
+   ],
+   "not": []
+  },
+  "60": {
+   "flower": "Pittosporum",
+   "all": [
+    "pittosporum"
+   ],
+   "not": []
+  },
+  "61": {
+   "flower": "Sword Fern",
+   "all": [
+    "sword fern"
+   ],
+   "not": []
+  },
+  "62": {
+   "flower": "Ivy (English / trailing)",
+   "all": [
+    "ivy"
+   ],
+   "not": []
+  },
+  "64": {
+   "flower": "Huckleberry / Huck",
+   "all": [
+    "huckleberry"
+   ],
+   "not": []
+  },
+  "65": {
+   "flower": "Magnolia Leaves",
+   "all": [
+    "magnolia"
+   ],
+   "not": []
+  },
+  "66": {
+   "flower": "Monstera / Tropical Leaf",
+   "all": [
+    "monstera"
+   ],
+   "not": []
+  },
+  "67": {
+   "flower": "Palm / Fan Palm",
+   "all": [
+    "palm"
+   ],
+   "not": []
+  },
+  "68": {
+   "flower": "Smilax / Vine",
+   "all": [
+    "smilax"
+   ],
+   "not": []
+  },
+  "69": {
+   "flower": "Aspidistra / Cast Iron Leaf",
+   "all": [
+    "aspidistra"
+   ],
+   "not": []
+  },
+  "70": {
+   "flower": "Plumosus / Tree Fern",
+   "all": [
+    "plumosus|plumosa|tree fern"
+   ],
+   "not": []
+  },
+  "9006": {
+   "flower": "Viburnum (Snowball)",
+   "all": [
+    "viburnum"
+   ],
+   "not": []
+  },
+  "9007": {
+   "flower": "Thistle (Eryngium)",
+   "all": [
+    "thistle|eryngium"
+   ],
+   "not": []
+  },
+  "9008": {
+   "flower": "Astrantia",
+   "all": [
+    "astrantia"
+   ],
+   "not": []
+  },
+  "9009": {
+   "flower": "Feverfew / Chamomile",
+   "all": [
+    "feverfew|chamomile"
+   ],
+   "not": []
+  },
+  "9010": {
+   "flower": "Yarrow (Achillea)",
+   "all": [
+    "yarrow|achillea"
+   ],
+   "not": []
+  },
+  "9011": {
+   "flower": "Nigella",
+   "all": [
+    "nigella"
+   ],
+   "not": []
+  },
+  "9012": {
+   "flower": "Butterfly Ranunculus",
+   "all": [
+    "butterfly ranunculus"
+   ],
+   "not": []
+  },
+  "9015": {
+   "flower": "Icelandic Poppy",
+   "all": [
+    "poppy|poppies"
+   ],
+   "not": [
+    "pod"
+   ]
+  },
+  "9018": {
+   "flower": "Lamb's Ear",
+   "all": [
+    "lamb's ear|lambs ear"
+   ],
+   "not": []
+  },
+  "9020": {
+   "flower": "Leucadendron",
+   "all": [
+    "leucadendron"
+   ],
+   "not": []
+  },
+  "9021": {
+   "flower": "Pampas Grass (dried)",
+   "all": [
+    "pampas"
+   ],
+   "not": []
+  },
+  "9022": {
+   "flower": "Bunny Tail (dried)",
+   "all": [
+    "bunny tail"
+   ],
+   "not": []
+  }
+ }
+}

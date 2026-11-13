@@ -388,11 +388,17 @@
   },
   "9017": {
    "flower": "Nagi Greens Garland",
-   "url": "https://fiftyflowers.com/products/nagi-greens-garland"
+   "url": "https://fiftyflowers.com/products/nagi-greens-garland",
+   "stemsPerPiece": 6,
+   "unit": "ft of garland",
+   "note": "Sold by the foot of garland, 4 to 6 inches wide. One foot is counted as about 6 stems of greenery. This is an estimate."
   },
   "9019": {
    "flower": "Plumosus and Sprengeri Greens Garland",
-   "url": "https://fiftyflowers.com/products/plumosus-sprengeri-greens-garland"
+   "url": "https://fiftyflowers.com/products/plumosus-sprengeri-greens-garland",
+   "stemsPerPiece": 6,
+   "unit": "ft of garland",
+   "note": "Sold by the foot of garland, 4 to 6 inches wide. One foot is counted as about 6 stems of greenery. This is an estimate."
   }
  },
  "_not_found_at_fiftyflowers": [

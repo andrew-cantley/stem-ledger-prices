@@ -126,12 +126,12 @@ def stems_per_bunch(product):
     return _avg(m.group(1), m.group(2)) if m else None
 
 
-def options_for(product, per_bunch_hint=None):
+def options_for(product, per_bunch_hint=None, per_piece=None, unit=None):
     # stems per bunch: from the page if it says, otherwise the figure noted in products.json
     per_bunch = stems_per_bunch(product) or per_bunch_hint
-    out = []
+    best = {}
     for v in product.get("variants", []):
-        label = str(v.get("title") or v.get("option1") or "")
+        label = " ".join(str(x) for x in [v.get("title"), v.get("option1"), v.get("option2"), v.get("option3")] if x)
         stems = stems_in(label)
         if not stems:  # sold by the bunch: bunches x stems per bunch
             bunches = bunches_in(label)
@@ -140,8 +140,102 @@ def options_for(product, per_bunch_hint=None):
         price = to_dollars(v.get("price"))
         if stems and price and price > 0:
             # the variant id lets Stem Ledger build a ready-filled cart link
-            out.append({"stems": stems, "price": price, "id": v.get("id"), "available": v.get("available", True)})
-    return sorted(out, key=lambda o: o["stems"])
+            option = {"stems": stems, "price": price, "id": v.get("id")}
+            if per_piece:  # a garland sold by the foot: each foot stands for about this many stems
+                option["label"] = "%g %s" % (stems, unit or "pieces")
+                option["stems"] = stems * per_piece
+            # the same count offered at several stem lengths: keep the cheapest
+            if option["stems"] not in best or price < best[option["stems"]]["price"]:
+                best[option["stems"]] = option
+    return sorted(best.values(), key=lambda o: o["stems"])
+
+
+def pack_list(options):
+    out = []
+    for o in options:
+        pack = {"stems": o["stems"], "price": round(o["price"], 2), "id": o.get("id")}
+        if o.get("label"):
+            pack["label"] = o["label"]
+        out.append(pack)
+    return out
+
+
+# ---- other stores: read the whole public catalog once, then match flowers by name ----
+
+def load_catalog(site, max_pages=30):
+    products, page = [], 1
+    while page <= max_pages:
+        batch = fetch_json("%s/products.json?limit=250&page=%d" % (site.rstrip("/"), page)).get("products", [])
+        products.extend(batch)
+        if len(batch) < 250:
+            break
+        page += 1
+        time.sleep(PAUSE_SECONDS)
+    return products
+
+
+NOT_PLAIN = re.compile(r"kit|garland|centerpiece|mix|combo|collection|dried|tinted|dyed|airbrush|painted|preserved|wreath|bouquet|diy|box|petal|assort|pack\b|bundle|artificial|faux|silk|rainbow|glitter|subscription|sample|vase|arrangement|package|wedding flowers|potted|plant\b|seed", re.I)
+WHITE = ("white", "ivory", "cream")
+
+
+def _has(title, group):
+    return any(word in title for word in group.split("|"))
+
+
+def match_supplier(catalog, flowers):
+    """One product per flower: its name holds every required word, none of the excluded ones,
+    and no other flower's name (so 'Lilac Roses' is a rose, and 'Peony Tulips' is neither)."""
+    primary = {fid: rule["all"][0] for fid, rule in flowers.items()}
+    out = {}
+    titles = [(str(p.get("title", "")).lower(), p) for p in catalog]
+    for fid, rule in flowers.items():
+        own = " ".join(rule["all"])
+        candidates = []
+        for title, product in titles:
+            if NOT_PLAIN.search(title) or not all(_has(title, g) for g in rule["all"]):
+                continue
+            if any(word in title for word in rule.get("not", [])):
+                continue
+            # another flower's name in the title, unless that name is part of this flower's own
+            if any(other != fid and _has(title, words) and not any(w in own for w in words.split("|")) for other, words in primary.items()):
+                continue
+            # a longer, more specific flower also fits (spray rose, garden rose): leave it to that one
+            if any(other != fid and all(_has(title, g) for g in flowers[other]["all"]) and len(" ".join(flowers[other]["all"])) > len(own) for other in flowers):
+                continue
+            options = options_for(product)
+            if options:
+                small = options[0]
+                candidates.append((0 if any(w in title for w in WHITE) else 1, small["price"] / small["stems"], product, options))
+        if candidates:
+            candidates.sort(key=lambda c: (c[0], c[1]))
+            _, _, product, options = candidates[0]
+            out[fid] = {"perStem": round(options[0]["price"] / options[0]["stems"], 2), "packs": pack_list(options),
+                        "product": product.get("title", ""), "handle": product.get("handle", "")}
+    return out
+
+
+def read_suppliers(today):
+    try:
+        with open("suppliers.json", encoding="utf-8") as f:
+            config = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    result = {}
+    for sup in config.get("suppliers", []):
+        try:
+            catalog = load_catalog(sup["site"])
+            found = match_supplier(catalog, config["flowers"])
+            for fid, entry in found.items():
+                entry["url"] = "%s/products/%s" % (sup["site"].rstrip("/"), entry.pop("handle"))
+                entry["flower"] = config["flowers"][fid].get("flower", "")
+            result[sup["name"]] = {"site": sup["site"], "asOf": today, "prices": found}
+            print("\n%s: %d products read, %d flowers matched" % (sup["name"], len(catalog), len(found)))
+            for fid in sorted(found, key=lambda x: int(x)):
+                print("   %-5s %-30s $%-6.2f %s | %s" % (fid, found[fid]["flower"][:30], found[fid]["perStem"], found[fid]["product"][:60], "%g stems $%.2f" % (found[fid]["packs"][0]["stems"], found[fid]["packs"][0]["price"])))
+        except Exception as err:
+            print("\nFAIL  %s: %s" % (sup["name"], err))
+        time.sleep(PAUSE_SECONDS)
+    return result
 
 
 def main():
@@ -165,7 +259,7 @@ def main():
                 product = pick_from_collection(item["url"], item.get("stemsPerBunch"), item.get("prefer"), item.get("match"))
             else:
                 product = load_product(item["url"])
-            options = options_for(product, item.get("stemsPerBunch"))
+            options = options_for(product, item.get("stemsPerBunch"), item.get("stemsPerPiece"), item.get("unit"))
             if not options:
                 labels = [" ".join(str(x) for x in [v.get("title"), v.get("option1"), v.get("option2")] if x) + " @" + str(v.get("price")) for v in product.get("variants", [])][:4]
                 text = re.sub(r"<[^>]+>", " ", str(product.get("description") or product.get("body_html") or ""))
@@ -180,12 +274,14 @@ def main():
                 "perStemBulk": round(bulk["price"] / bulk["stems"], 2),
                 "bulkPack": "%g stems for $%.2f" % (bulk["stems"], bulk["price"]),
                 # every pack on offer, so the tool can cost the pack an order would really buy
-                "packs": [{"stems": o["stems"], "price": round(o["price"], 2), "id": o.get("id")} for o in options],
+                "packs": pack_list(options),
                 "product": product.get("title") or item.get("product", ""),
                 "flower": item.get("flower", ""),
                 "url": ("https://fiftyflowers.com/products/" + product["handle"]) if is_collection(item["url"]) and product.get("handle") else item["url"],
                 "asOf": today,
             }
+            if item.get("stemsPerPiece"):
+                prices[flower_id]["estimate"] = item.get("note", "")
             print("ok    %-5s %-34s $%.2f a stem" % (flower_id, item.get("flower", "")[:34], prices[flower_id]["perStem"]))
         except Exception as err:
             failed.append(flower_id)
@@ -206,6 +302,8 @@ def main():
         "date": today,
         "shippingIncluded": bool(config.get("shippingIncluded", False)),
         "prices": prices,
+        # other stores, matched by name: check the product named beside each price
+        "suppliers": read_suppliers(today),
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=1, sort_keys=True)
