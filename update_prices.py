@@ -227,6 +227,17 @@ def compact_catalog(catalog):
         options = options_for(product)[:6]
         if options:
             out.append([title, product.get("handle", ""), [[o["stems"], round(o["price"], 2), o.get("id")] for o in options]])
+            continue
+        # sold by the bunch with no stem count on the listing: keep the bunch options, so the
+        # tool can price it using the stems per bunch it already knows for that flower
+        bunch_options = []
+        for v in product.get("variants", [])[:6]:
+            label = " ".join(str(x) for x in [v.get("title"), v.get("option1")] if x)
+            bunches, price = bunches_in(label), to_dollars(v.get("price"))
+            if bunches and price and price > 0:
+                bunch_options.append([bunches, round(price, 2), v.get("id")])
+        if bunch_options:
+            out.append([title, product.get("handle", ""), [], bunch_options])
     return out
 
 
@@ -299,6 +310,9 @@ def main():
             }
             if item.get("stemsPerPiece"):
                 prices[flower_id]["estimate"] = item.get("note", "")
+            per_bunch = stems_per_bunch(product) or item.get("stemsPerBunch")
+            if per_bunch:
+                prices[flower_id]["stemsPerBunch"] = per_bunch
             print("ok    %-5s %-34s $%.2f a stem" % (flower_id, item.get("flower", "")[:34], prices[flower_id]["perStem"]))
         except Exception as err:
             failed.append(flower_id)
