@@ -361,6 +361,63 @@
    "product": "White Delphinium Flowers",
    "url": "https://fiftyflowers.com/products/white-delphinium-flower"
   },
+  "21": {
+   "asOf": "2026-11-13",
+   "bulkPack": "200 stems for $3684.99",
+   "flower": "Baby's Breath (Gypsophila)",
+   "pack": "5 stems for $134.99",
+   "packs": [
+    {
+     "id": 43665111089314,
+     "price": 134.99,
+     "stems": 5.0
+    },
+    {
+     "id": 43617676165282,
+     "price": 219.99,
+     "stems": 10.0
+    },
+    {
+     "id": 43617676198050,
+     "price": 309.99,
+     "stems": 15.0
+    },
+    {
+     "id": 43617676099746,
+     "price": 399.99,
+     "stems": 20.0
+    },
+    {
+     "id": 43617676230818,
+     "price": 479.99,
+     "stems": 25.0
+    },
+    {
+     "id": 43617676263586,
+     "price": 954.99,
+     "stems": 50.0
+    },
+    {
+     "id": 43617676296354,
+     "price": 1414.99,
+     "stems": 75.0
+    },
+    {
+     "id": 43617676329122,
+     "price": 1879.99,
+     "stems": 100.0
+    },
+    {
+     "id": 43665111122082,
+     "price": 3684.99,
+     "stems": 200.0
+    }
+   ],
+   "perStem": 27.0,
+   "perStemBulk": 18.42,
+   "product": "Baby's Breath Garland",
+   "url": "https://fiftyflowers.com/products/babys-breath-garland"
+  },
   "23": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $354.99",
@@ -658,6 +715,28 @@
    "perStemBulk": 1.57,
    "product": "Anastasia White Spider Mum Flowers",
    "url": "https://fiftyflowers.com/products/anastasia-spider-white-flowers"
+  },
+  "31": {
+   "asOf": "2026-11-13",
+   "bulkPack": "240 stems for $414.99",
+   "flower": "Button Mum / Pompon",
+   "pack": "120 stems for $239.99",
+   "packs": [
+    {
+     "id": 45268087472290,
+     "price": 239.99,
+     "stems": 120.0
+    },
+    {
+     "id": 45268087505058,
+     "price": 414.99,
+     "stems": 240.0
+    }
+   ],
+   "perStem": 2.0,
+   "perStemBulk": 1.73,
+   "product": "Bright Magriet Daisy Flower Mix",
+   "url": "https://fiftyflowers.com/products/bright-magriet-daisy-flower-mix"
   },
   "32": {
    "asOf": "2026-11-13",
@@ -1003,6 +1082,23 @@
    "product": "Orange Pin Cushion Protea Flower",
    "url": "https://fiftyflowers.com/products/orange-pin-cushion-flower"
   },
+  "44": {
+   "asOf": "2026-11-13",
+   "bulkPack": "100 stems for $279.99",
+   "flower": "Cosmos",
+   "pack": "100 stems for $279.99",
+   "packs": [
+    {
+     "id": 37680441688226,
+     "price": 279.99,
+     "stems": 100.0
+    }
+   ],
+   "perStem": 2.8,
+   "perStemBulk": 2.8,
+   "product": "Chocolate Cosmos Flowers",
+   "url": "https://fiftyflowers.com/products/chocolate-cosmos-flower"
+  },
   "45": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $344.99",
@@ -1231,6 +1327,60 @@
    "perStemBulk": 1.48,
    "product": "Dusty Miller Greens",
    "url": "https://fiftyflowers.com/products/dusty-miller-greens"
+  },
+  "51": {
+   "asOf": "2026-11-13",
+   "bulkPack": "1 stems for $144.99",
+   "flower": "Eucalyptus \u2013 Silver Dollar",
+   "pack": "1 stems for $144.99",
+   "packs": [
+    {
+     "id": 37888371916962,
+     "price": 144.99,
+     "stems": 1.0
+    }
+   ],
+   "perStem": 144.99,
+   "perStemBulk": 144.99,
+   "product": "Creamy Peach Protea DIY Tropical Flower Kit",
+   "url": "https://fiftyflowers.com/products/creamy-peach-protea-flower-collections"
+  },
+  "55": {
+   "asOf": "2026-11-13",
+   "bulkPack": "30 stems for $404.99",
+   "flower": "Italian Ruscus",
+   "pack": "7 stems for $239.99",
+   "packs": [
+    {
+     "id": 37680287711394,
+     "price": 239.99,
+     "stems": 7.0
+    },
+    {
+     "id": 37680287482018,
+     "price": 159.99,
+     "stems": 8.0
+    },
+    {
+     "id": 37680287744162,
+     "price": 404.99,
+     "stems": 14.0
+    },
+    {
+     "id": 37680287547554,
+     "price": 239.99,
+     "stems": 15.0
+    },
+    {
+     "id": 37680287645858,
+     "price": 404.99,
+     "stems": 30.0
+    }
+   ],
+   "perStem": 34.28,
+   "perStemBulk": 13.5,
+   "product": "Sunflowers and Fall Colors Flower Centerpieces",
+   "url": "https://fiftyflowers.com/products/floral-centerpieces-sunflowers-and-fall-colors"
   },
   "56": {
    "asOf": "2026-11-13",
@@ -2064,6 +2214,63 @@
    "product": "Assorted Poppy Pack",
    "url": "https://fiftyflowers.com/products/assorted-poppy-pack"
   },
+  "9017": {
+   "asOf": "2026-11-13",
+   "bulkPack": "200 stems for $2799.99",
+   "flower": "Nagi",
+   "pack": "5 stems for $179.99",
+   "packs": [
+    {
+     "id": 37680214016162,
+     "price": 179.99,
+     "stems": 5.0
+    },
+    {
+     "id": 37680214081698,
+     "price": 279.99,
+     "stems": 10.0
+    },
+    {
+     "id": 37680214212770,
+     "price": 349.99,
+     "stems": 15.0
+    },
+    {
+     "id": 37680214311074,
+     "price": 439.99,
+     "stems": 20.0
+    },
+    {
+     "id": 40874921033890,
+     "price": 514.99,
+     "stems": 25.0
+    },
+    {
+     "id": 37680214540450,
+     "price": 859.99,
+     "stems": 50.0
+    },
+    {
+     "id": 37680214638754,
+     "price": 1249.99,
+     "stems": 75.0
+    },
+    {
+     "id": 37680214737058,
+     "price": 1529.99,
+     "stems": 100.0
+    },
+    {
+     "id": 37680214802594,
+     "price": 2799.99,
+     "stems": 200.0
+    }
+   ],
+   "perStem": 36.0,
+   "perStemBulk": 14.0,
+   "product": "Nagi Greens Garland",
+   "url": "https://fiftyflowers.com/products/nagi-greens-garland"
+  },
   "9018": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $354.99",
@@ -2095,6 +2302,63 @@
    "perStemBulk": 1.77,
    "product": "Lamb's Ear Greenery",
    "url": "https://fiftyflowers.com/products/lambs-ear-greenery"
+  },
+  "9019": {
+   "asOf": "2026-11-13",
+   "bulkPack": "200 stems for $2799.99",
+   "flower": "Springeri (Asparagus Fern)",
+   "pack": "5 stems for $179.99",
+   "packs": [
+    {
+     "id": 37680214048930,
+     "price": 179.99,
+     "stems": 5.0
+    },
+    {
+     "id": 37680214114466,
+     "price": 279.99,
+     "stems": 10.0
+    },
+    {
+     "id": 37680214180002,
+     "price": 349.99,
+     "stems": 15.0
+    },
+    {
+     "id": 37680214278306,
+     "price": 439.99,
+     "stems": 20.0
+    },
+    {
+     "id": 37680214376610,
+     "price": 514.99,
+     "stems": 25.0
+    },
+    {
+     "id": 37680214442146,
+     "price": 859.99,
+     "stems": 50.0
+    },
+    {
+     "id": 37680214507682,
+     "price": 1249.99,
+     "stems": 75.0
+    },
+    {
+     "id": 37680214605986,
+     "price": 1529.99,
+     "stems": 100.0
+    },
+    {
+     "id": 37680214704290,
+     "price": 2799.99,
+     "stems": 200.0
+    }
+   ],
+   "perStem": 36.0,
+   "perStemBulk": 14.0,
+   "product": "Plumosus Sprengeri Greens Garland",
+   "url": "https://fiftyflowers.com/products/plumosus-sprengeri-greens-garland"
   },
   "9020": {
    "asOf": "2026-11-13",
