@@ -2,10 +2,6 @@
  "_note": "Other stores whose public catalogs can be read. Each flower is matched to a product by name, plain bunches only, white or ivory first. Matches are automatic, so the product name is recorded beside each price.",
  "suppliers": [
   {
-   "name": "BunchesDirect",
-   "site": "https://bunchesdirect.com"
-  },
-  {
    "name": "Flower Moxie",
    "site": "https://flowermoxie.com"
   },
@@ -16,10 +12,6 @@
   {
    "name": "Flower Explosion",
    "site": "https://flowerexplosion.com"
-  },
-  {
-   "name": "Bloom Culture Flowers",
-   "site": "https://bloomcultureflowers.com"
   }
  ],
  "flowers": {
@@ -66,7 +58,9 @@
    "all": [
     "ranunculus"
    ],
-   "not": []
+   "not": [
+    "butterfly"
+   ]
   },
   "7": {
    "flower": "Anemone",
@@ -611,7 +605,8 @@
   "9012": {
    "flower": "Butterfly Ranunculus",
    "all": [
-    "butterfly ranunculus"
+    "ranunculus",
+    "butterfly"
    ],
    "not": []
   },
@@ -652,5 +647,11 @@
    ],
    "not": []
   }
+ },
+ "_left_out": {
+  "BunchesDirect": "readable, but customer reviews are mixed",
+  "Bloom Culture Flowers": "readable, but listings do not give a stem count",
+  "GlobalRose, Whole Blossoms, Blooms By The Box": "no public catalog this script can read",
+  "Mayesh, DVFlora and other trade wholesalers": "prices are behind a trade login"
  }
 }
