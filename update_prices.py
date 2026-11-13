@@ -174,7 +174,7 @@ def load_catalog(site, max_pages=30):
     return products
 
 
-NOT_PLAIN = re.compile(r"kit|garland|centerpiece|mix|combo|collection|dried|tinted|dyed|airbrush|painted|preserved|wreath|bouquet|diy|box|petal|assort|pack\b|bundle|artificial|faux|silk|rainbow|glitter|subscription|sample|vase|arrangement|package|wedding flowers|potted|plant\b|seed", re.I)
+NOT_PLAIN = re.compile(r"kit|garland|centerpiece|mix|combo|collection|dried|tinted|dyed|airbrush|painted|preserved|wreath|bouquet|diy|box|petal|assort|pack\b|bundle|artificial|faux|silk|rainbow|glitter|subscription|sample|vase|arrangement|package|wedding flowers|potted|plant\b|seed|crown|novelty|bicolor", re.I)
 WHITE = ("white", "ivory", "cream")
 
 
@@ -205,7 +205,9 @@ def match_supplier(catalog, flowers):
             options = options_for(product)
             if options:
                 small = options[0]
-                candidates.append((0 if any(w in title for w in WHITE) else 1, small["price"] / small["stems"], product, options))
+                # plain white first, then white with a second color, then anything else
+                tier = 2 if not any(w in title for w in WHITE) else (1 if (" and " in title or "&" in title) else 0)
+                candidates.append((tier, small["price"] / small["stems"], product, options))
         if candidates:
             candidates.sort(key=lambda c: (c[0], c[1]))
             _, _, product, options = candidates[0]
