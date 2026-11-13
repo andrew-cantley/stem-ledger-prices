@@ -193,7 +193,7 @@ def load_catalog(site, max_pages=30):
     return products
 
 
-NOT_PLAIN = re.compile(r"kit|garland|centerpiece|mix|combo|collection|dried|tinted|dyed|airbrush|painted|preserved|wreath|bouquet|diy|box|petal|assort|pack\b|bundle|artificial|faux|silk|rainbow|glitter|subscription|sample|vase|arrangement|package|wedding flowers|potted|plant\b|seed|crown|novelty|bicolor", re.I)
+NOT_PLAIN = re.compile(r"kit|garland|centerpiece|mix|combo|collection|dried|tinted|dyed|airbrush|painted|preserved|wreath|bouquet|diy|box|petal|assort|pack\b|bundle|artificial|faux|silk|rainbow|glitter|subscription|sample|vase|arrangement|package|wedding flowers|potted|plant\b|seed|crown|novelty|bicolor|do it yourself|wired", re.I)
 WHITE = ("white", "ivory", "cream")
 
 

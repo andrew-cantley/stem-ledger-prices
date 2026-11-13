@@ -328,7 +328,24 @@
    "all": [
     "lilac"
    ],
-   "not": []
+   "not": [
+    "campanula",
+    "aster",
+    "limonium",
+    "statice",
+    "clematis",
+    "veronica",
+    "sweet pea",
+    "scabiosa",
+    "gerbera",
+    "alstroemeria",
+    "snapdragon",
+    "anemone",
+    "calla",
+    "orchid",
+    "pom",
+    "daisy"
+   ]
   },
   "38": {
    "flower": "Lily of the Valley",
