@@ -653,5 +653,43 @@
   "Bloom Culture Flowers": "readable, but listings do not give a stem count",
   "GlobalRose, Whole Blossoms, Blooms By The Box": "no public catalog this script can read",
   "Mayesh, DVFlora and other trade wholesalers": "prices are behind a trade login"
- }
+ },
+ "pins": {
+  "Flower Moxie": {
+   "22": "white-wax-flower-1",
+   "52": "seeded-eucalyptus-greenery-1",
+   "9016": "gunni-eucalyptus-greenery-1",
+   "56": "everyday-greenery-mixed-box-small",
+   "9021": "pampas-grass",
+   "31": "dusty-blue-cushion-pom-flower",
+   "60": "silver-queen-pittosporum-greenery",
+   "51": "silver-dollar-eucalyptus-greenery",
+   "54": "baby-eucalyptus-greenery",
+   "9003": "lavender-limonium-flower"
+  },
+  "Flower Explosion": {
+   "10": "white-calla-lilies",
+   "25": "white-statice",
+   "29": "lavender-football-mum",
+   "50": "dusty-miller-flat-leaf"
+  },
+  "Bloomingmore": {
+   "10": "calla-lilly",
+   "55": "italian-ruscus-25-bunches",
+   "56": "ruscus-natural-green",
+   "9021": "pampas-dry-standard",
+   "11": "lily-asiatic-white",
+   "34": "alstroemeria-white",
+   "33": "white-gerberas",
+   "20": "delphinium-sky-waltz",
+   "7": "anemones-levante-white",
+   "8": "dahlia-white-col",
+   "6": "ranunculus-white",
+   "18": "stock-reddish-140-stems",
+   "9010": "yarrow-cottage-light-pink",
+   "42": "pin-cushion-protea-yellow-30-stems",
+   "48": "veronica-skyler-white"
+  }
+ },
+ "_pins_note": "Product pages Andrew supplied on Nov. 13, 2026. A pin wins over the automatic name match. Left out on purpose: the two 'dinner-plate dahlia' links (ordinary dahlias, not dinner-plate) and Flower Moxie's orange mini gerbera (a mini, not a standard gerbera)."
 }

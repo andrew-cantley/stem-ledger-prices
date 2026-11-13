@@ -253,6 +253,20 @@ def read_suppliers(today, catalogs):
             catalog = load_catalog(sup["site"])
             catalogs[sup["name"]] = {"site": sup["site"], "products": compact_catalog(catalog)}
             found = match_supplier(catalog, config["flowers"])
+            # product pages chosen by hand win over the name match
+            for fid, handle in config.get("pins", {}).get(sup["name"], {}).items():
+                product = next((p for p in catalog if p.get("handle") == handle), None)
+                try:
+                    if product is None:
+                        product = load_product("%s/products/%s" % (sup["site"].rstrip("/"), handle))
+                    options = options_for(product)
+                    if not options:
+                        labels = [" ".join(str(x) for x in [v.get("title"), v.get("option1")] if x) + " $" + str(v.get("price")) for v in product.get("variants", [])][:4]
+                        raise ValueError("no stem count on the listing | %s" % labels)
+                    found[fid] = {"perStem": round(options[0]["price"] / options[0]["stems"], 2), "packs": pack_list(options),
+                                  "product": product.get("title", ""), "handle": product.get("handle", handle), "pinned": True}
+                except Exception as err:
+                    print("   PIN FAIL %-5s %-28s %s" % (fid, handle[:28], str(err)[:230]))
             for fid, entry in found.items():
                 entry["url"] = "%s/products/%s" % (sup["site"].rstrip("/"), entry.pop("handle"))
                 entry["flower"] = config["flowers"][fid].get("flower", "")
