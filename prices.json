@@ -2780,19 +2780,44 @@
      "flower": "Standard / Hybrid Tea Rose",
      "packs": [
       {
-       "id": 33636782090,
-       "price": 82.98,
+       "id": 40327358283858,
+       "price": 69.98,
+       "stems": 25.0
+      },
+      {
+       "id": 33108257610,
+       "price": 79.98,
        "stems": 50.0
       },
       {
-       "id": 33636782154,
-       "price": 117.98,
+       "id": 40327359332434,
+       "price": 90.98,
+       "stems": 75.0
+      },
+      {
+       "id": 40327359397970,
+       "price": 99.98,
+       "stems": 100.0
+      },
+      {
+       "id": 33108258698,
+       "price": 108.98,
        "stems": 125.0
+      },
+      {
+       "id": 40327359463506,
+       "price": 158.98,
+       "stems": 150.0
+      },
+      {
+       "id": 40327359529042,
+       "price": 177.98,
+       "stems": 200.0
       }
      ],
-     "perStem": 1.66,
-     "product": "Peach & White Roses - Choose From 50 to 125 Stems",
-     "url": "https://bloomingmore.com/products/rose-nat-peach-white"
+     "perStem": 2.8,
+     "product": "White Roses - Choose from 25 to 200 Stems",
+     "url": "https://bloomingmore.com/products/roses-white"
     },
     "16": {
      "flower": "Lisianthus",
@@ -3202,57 +3227,57 @@
      "flower": "Standard / Hybrid Tea Rose",
      "packs": [
       {
-       "id": 39841345863767,
+       "id": 39841236222039,
        "price": 99.98,
        "stems": 50.0
       },
       {
-       "id": 39841345896535,
+       "id": 39841236254807,
        "price": 149.98,
        "stems": 75.0
       },
       {
-       "id": 39841345929303,
+       "id": 39841236287575,
        "price": 169.98,
        "stems": 100.0
       },
       {
-       "id": 39841345962071,
+       "id": 39841236320343,
        "price": 224.98,
        "stems": 150.0
       },
       {
-       "id": 39841345994839,
+       "id": 39841236353111,
        "price": 289.98,
        "stems": 200.0
       }
      ],
      "perStem": 2.0,
-     "product": "Tabasco Cream and Pink Rose",
-     "url": "https://flowerexplosion.com/products/tabasco-cream-and-pink-rose"
+     "product": "Talea Cream Rose",
+     "url": "https://flowerexplosion.com/products/talea-cream-rose"
     },
     "11": {
      "flower": "Lily \u2013 Asiatic",
      "packs": [
       {
-       "id": 39841284292695,
+       "id": 39841281736791,
        "price": 144.98,
        "stems": 30.0
       },
       {
-       "id": 39841284325463,
+       "id": 39841281769559,
        "price": 199.98,
        "stems": 60.0
       },
       {
-       "id": 39841284358231,
+       "id": 39841281802327,
        "price": 299.98,
        "stems": 120.0
       }
      ],
      "perStem": 4.83,
-     "product": "Asiatic Lilies - Pink & White",
-     "url": "https://flowerexplosion.com/products/asiatic-lilies-pink-white"
+     "product": "Asiatic Lilies - White",
+     "url": "https://flowerexplosion.com/products/asiatic-lilies-white"
     },
     "13": {
      "flower": "Orchid \u2013 Cymbidium",
@@ -3309,52 +3334,52 @@
      "flower": "Lisianthus",
      "packs": [
       {
-       "id": 39842085175383,
+       "id": 39841210564695,
        "price": 189.98,
        "stems": 60.0
       },
       {
-       "id": 39842085208151,
+       "id": 39841210597463,
        "price": 259.98,
        "stems": 120.0
       },
       {
-       "id": 39842085240919,
+       "id": 39841210630231,
        "price": 439.98,
        "stems": 240.0
       }
      ],
      "perStem": 3.17,
-     "product": "Lisianthus White and Pink",
-     "url": "https://flowerexplosion.com/products/lisianthus-white-and-pink"
+     "product": "Lisianthus Double Cream - Yellow",
+     "url": "https://flowerexplosion.com/products/lisianthus-double-cream-yellow"
     },
     "17": {
      "flower": "Scabiosa",
      "packs": [
       {
-       "id": 39842465677399,
+       "id": 39842463514711,
        "price": 109.98,
        "stems": 50.0
       },
       {
-       "id": 39842465710167,
+       "id": 39842463547479,
        "price": 199.98,
        "stems": 100.0
       },
       {
-       "id": 39842465742935,
+       "id": 39842463580247,
        "price": 259.98,
        "stems": 150.0
       },
       {
-       "id": 39842465775703,
+       "id": 39842463645783,
        "price": 329.98,
        "stems": 200.0
       }
      ],
      "perStem": 2.2,
-     "product": "Purple and White Scabiosa Flower",
-     "url": "https://flowerexplosion.com/products/purple-and-white-scabiosa-flower"
+     "product": "White Scabiosa Flower",
+     "url": "https://flowerexplosion.com/products/white-scabiosa-flower"
     },
     "18": {
      "flower": "Stock",
@@ -3521,62 +3546,62 @@
      "flower": "Carnations (standard)",
      "packs": [
       {
-       "id": 39841803010135,
+       "id": 39841325744215,
        "price": 124.98,
        "stems": 100.0
       },
       {
-       "id": 39841803173975,
-       "price": 159.98,
+       "id": 39841325842519,
+       "price": 134.98,
        "stems": 150.0
       },
       {
-       "id": 39841803042903,
-       "price": 189.98,
+       "id": 39841325776983,
+       "price": 179.98,
        "stems": 200.0
       },
       {
-       "id": 39841803108439,
-       "price": 299.98,
+       "id": 39841325875287,
+       "price": 239.98,
        "stems": 300.0
       },
       {
-       "id": 39841803075671,
-       "price": 354.98,
+       "id": 39841325809751,
+       "price": 289.98,
        "stems": 400.0
       },
       {
-       "id": 39841803141207,
+       "id": 39841325908055,
        "price": 699.98,
        "stems": 800.0
       }
      ],
      "perStem": 1.25,
-     "product": "Purple And White Carnations",
-     "url": "https://flowerexplosion.com/products/purple-and-white-carnations"
+     "product": "White Carnations",
+     "url": "https://flowerexplosion.com/products/white-carnations"
     },
     "28": {
      "flower": "Mini / Spray Carnations",
      "packs": [
       {
-       "id": 39841417101399,
-       "price": 129.98,
+       "id": 39841412579415,
+       "price": 149.98,
        "stems": 125.0
       },
       {
-       "id": 39841417134167,
-       "price": 224.98,
+       "id": 39841412612183,
+       "price": 249.98,
        "stems": 250.0
       },
       {
-       "id": 39841417166935,
-       "price": 399.98,
+       "id": 39841412644951,
+       "price": 429.98,
        "stems": 500.0
       }
      ],
-     "perStem": 1.04,
-     "product": "Pink and White Mini Carnations",
-     "url": "https://flowerexplosion.com/products/pink-and-white-mini-carnations"
+     "perStem": 1.2,
+     "product": "White Mini Carnations",
+     "url": "https://flowerexplosion.com/products/white-mini-carnations"
     },
     "3": {
      "flower": "Spray Rose",
@@ -3684,24 +3709,24 @@
      "flower": "Alstroemeria",
      "packs": [
       {
-       "id": 39841374535767,
+       "id": 39841372766295,
        "price": 119.98,
        "stems": 60.0
       },
       {
-       "id": 39841374568535,
+       "id": 39841372799063,
        "price": 194.98,
        "stems": 120.0
       },
       {
-       "id": 39841374601303,
+       "id": 39841372831831,
        "price": 319.98,
        "stems": 240.0
       }
      ],
      "perStem": 2.0,
-     "product": "White and Pink  Alstroemerias",
-     "url": "https://flowerexplosion.com/products/white-and-pink-alstroemerias"
+     "product": "White  Alstroemerias",
+     "url": "https://flowerexplosion.com/products/white-alstroemerias"
     },
     "4": {
      "flower": "Peony",
@@ -3994,19 +4019,29 @@
      "flower": "Standard / Hybrid Tea Rose",
      "packs": [
       {
-       "id": 43567494660184,
-       "price": 190.0,
+       "id": 41140647428184,
+       "price": 120.0,
+       "stems": 25.0
+      },
+      {
+       "id": 41140647460952,
+       "price": 160.0,
        "stems": 50.0
       },
       {
-       "id": 43567494692952,
-       "price": 300.0,
+       "id": 41031395213400,
+       "price": 240.0,
        "stems": 100.0
+      },
+      {
+       "id": 41031395246168,
+       "price": 440.0,
+       "stems": 200.0
       }
      ],
-     "perStem": 3.8,
-     "product": "Black & White Tuxedo Novelty Rose",
-     "url": "https://flowermoxie.com/products/black-and-white-tuxedo-novelty-rose"
+     "perStem": 4.8,
+     "product": "Blush Cream Cute Enigma Roses",
+     "url": "https://flowermoxie.com/products/bulk-beige-enigma-roses"
     },
     "13": {
      "flower": "Orchid \u2013 Cymbidium",
@@ -4071,52 +4106,62 @@
      "flower": "Lisianthus",
      "packs": [
       {
-       "id": 43258588823640,
+       "id": 43133820010584,
        "price": 140.0,
        "stems": 34.0
       },
       {
-       "id": 43258588856408,
+       "id": 40985929056344,
        "price": 174.0,
        "stems": 51.0
       },
       {
-       "id": 43258588889176,
+       "id": 43133820043352,
        "price": 200.0,
        "stems": 68.0
       },
       {
-       "id": 43258588921944,
+       "id": 40985929089112,
        "price": 225.0,
        "stems": 85.0
       }
      ],
      "perStem": 4.12,
-     "product": "White and Pink Lisianthus Flower",
-     "url": "https://flowermoxie.com/products/white-and-pink-lisianthus-flower"
+     "product": "White Lisianthus Flower",
+     "url": "https://flowermoxie.com/products/white-lisianthus-flower"
     },
     "17": {
      "flower": "Scabiosa",
      "packs": [
       {
-       "id": 42584610242648,
+       "id": 44005521719384,
+       "price": 126.0,
+       "stems": 30.0
+      },
+      {
+       "id": 43759155282008,
+       "price": 150.0,
+       "stems": 50.0
+      },
+      {
+       "id": 40985960415320,
        "price": 176.0,
        "stems": 80.0
       },
       {
-       "id": 43759152529496,
+       "id": 43759155314776,
        "price": 200.0,
        "stems": 100.0
       },
       {
-       "id": 42584610275416,
+       "id": 40985960448088,
        "price": 216.0,
        "stems": 120.0
       }
      ],
-     "perStem": 2.2,
-     "product": "White and Purple Scabiosa Flower",
-     "url": "https://flowermoxie.com/products/white-and-purple-bicolor-scabiosa-flower"
+     "perStem": 4.2,
+     "product": "White Scabiosa Flower",
+     "url": "https://flowermoxie.com/products/white-scabiosa-flower"
     },
     "18": {
      "flower": "Stock",
@@ -4155,34 +4200,34 @@
      "flower": "Snapdragon",
      "packs": [
       {
-       "id": 67811448356952,
+       "id": 43760458629208,
        "price": 108.0,
        "stems": 30.0
       },
       {
-       "id": 43133480468568,
+       "id": 43133376495704,
        "price": 130.0,
        "stems": 50.0
       },
       {
-       "id": 43133596663896,
+       "id": 40985889603672,
        "price": 160.0,
        "stems": 80.0
       },
       {
-       "id": 43133596696664,
+       "id": 43133376528472,
        "price": 180.0,
        "stems": 100.0
       },
       {
-       "id": 43133480501336,
+       "id": 40985889636440,
        "price": 198.0,
        "stems": 120.0
       }
      ],
      "perStem": 3.6,
-     "product": "White and Pink Snapdragon Flower",
-     "url": "https://flowermoxie.com/products/white-and-pink-snapdragon-flower-1"
+     "product": "White Snapdragon Flower",
+     "url": "https://flowermoxie.com/products/white-snapdragon-flower"
     },
     "2": {
      "flower": "Garden Rose / David Austin",
@@ -4249,19 +4294,34 @@
      "flower": "Baby's Breath (Gypsophila)",
      "packs": [
       {
-       "id": 43883878023256,
-       "price": 660.0,
-       "stems": 12.0
+       "id": 43760148316248,
+       "price": 104.0,
+       "stems": 40.0
       },
       {
-       "id": 43883878056024,
-       "price": 1200.0,
-       "stems": 24.0
+       "id": 43627981439064,
+       "price": 144.0,
+       "stems": 80.0
+      },
+      {
+       "id": 43627981471832,
+       "price": 192.0,
+       "stems": 120.0
+      },
+      {
+       "id": 43627981504600,
+       "price": 240.0,
+       "stems": 160.0
+      },
+      {
+       "id": 43627981537368,
+       "price": 280.0,
+       "stems": 200.0
       }
      ],
-     "perStem": 55.0,
-     "product": "White Baby's Breath Flower Crown",
-     "url": "https://flowermoxie.com/products/white-babys-breath-flower-crown"
+     "perStem": 2.6,
+     "product": "Small Bloom Baby's Breath Flower",
+     "url": "https://flowermoxie.com/products/small-million-star-baby-s-breath-flower"
     },
     "23": {
      "flower": "Queen Anne's Lace / Ammi",
@@ -4552,29 +4612,34 @@
      "flower": "Amaranthus (cascading)",
      "packs": [
       {
-       "id": 43640497209432,
+       "id": 43745721745496,
+       "price": 150.0,
+       "stems": 30.0
+      },
+      {
+       "id": 43123239551064,
        "price": 225.0,
        "stems": 50.0
       },
       {
-       "id": 43640497242200,
+       "id": 43640477712472,
        "price": 340.0,
        "stems": 80.0
       },
       {
-       "id": 43640497274968,
+       "id": 40987378679896,
        "price": 400.0,
        "stems": 100.0
       },
       {
-       "id": 43640497307736,
+       "id": 43640477745240,
        "price": 450.0,
        "stems": 120.0
       }
      ],
-     "perStem": 4.5,
-     "product": "Bicolor Hanging Amaranthus Flower",
-     "url": "https://flowermoxie.com/products/bicolor-hanging-amaranthus-flower"
+     "perStem": 5.0,
+     "product": "Green Hanging Amaranthus Flower",
+     "url": "https://flowermoxie.com/products/green-hanging-amaranthus-flower"
     },
     "48": {
      "flower": "Veronica / Speedwell",
