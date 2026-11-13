@@ -99,7 +99,8 @@ def options_for(product, per_bunch_hint=None):
                 stems = bunches * per_bunch
         price = to_dollars(v.get("price"))
         if stems and price and price > 0:
-            out.append({"stems": stems, "price": price})
+            # the variant id lets Stem Ledger build a ready-filled cart link
+            out.append({"stems": stems, "price": price, "id": v.get("id"), "available": v.get("available", True)})
     return sorted(out, key=lambda o: o["stems"])
 
 
@@ -132,7 +133,7 @@ def main():
                 "perStemBulk": round(bulk["price"] / bulk["stems"], 2),
                 "bulkPack": "%g stems for $%.2f" % (bulk["stems"], bulk["price"]),
                 # every pack on offer, so the tool can cost the pack an order would really buy
-                "packs": [{"stems": o["stems"], "price": round(o["price"], 2)} for o in options],
+                "packs": [{"stems": o["stems"], "price": round(o["price"], 2), "id": o.get("id")} for o in options],
                 "product": product.get("title") or item.get("product", ""),
                 "flower": item.get("flower", ""),
                 "url": item["url"],
