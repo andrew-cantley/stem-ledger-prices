@@ -39,6 +39,29 @@ def load_product(url):
     raise last_error
 
 
+def load_collection_products(url):
+    """A collection address lists many products (one per color). Shopify publishes the list."""
+    base = url.split("?")[0].rstrip("/")
+    return fetch_json(base + "/products.json?limit=250").get("products", [])
+
+
+def pick_from_collection(url, per_bunch_hint=None, prefer=None):
+    """Chooses one product to stand for the flower: the white or ivory one when there is one
+    (colors usually cost the same), otherwise the first that has a readable pack and price."""
+    words = [w.lower() for w in (prefer or ["white", "ivory", "cream"])]
+    products = load_collection_products(url)
+    ranked = sorted(products, key=lambda p: 0 if any(w in str(p.get("title", "")).lower() for w in words) else 1)
+    for product in ranked:
+        if options_for(product, per_bunch_hint):
+            return product
+    titles = [str(p.get("title")) + " :: " + " / ".join(str(v.get("title")) for v in p.get("variants", [])[:3]) for p in products[:4]]
+    raise ValueError("no product in the collection has a readable pack | %d products | %s" % (len(products), titles))
+
+
+def is_collection(url):
+    return "/collections/" in url and "/products/" not in url
+
+
 def to_dollars(price):
     """The .js form gives whole cents (38999); the .json form gives a string ("389.99")."""
     if isinstance(price, bool) or price is None:
@@ -117,7 +140,10 @@ def main():
     prices, failed = {}, []
     for flower_id, item in config["products"].items():
         try:
-            product = load_product(item["url"])
+            if is_collection(item["url"]):
+                product = pick_from_collection(item["url"], item.get("stemsPerBunch"), item.get("prefer"))
+            else:
+                product = load_product(item["url"])
             options = options_for(product, item.get("stemsPerBunch"))
             if not options:
                 labels = [" ".join(str(x) for x in [v.get("title"), v.get("option1"), v.get("option2")] if x) + " @" + str(v.get("price")) for v in product.get("variants", [])][:4]
@@ -136,7 +162,7 @@ def main():
                 "packs": [{"stems": o["stems"], "price": round(o["price"], 2), "id": o.get("id")} for o in options],
                 "product": product.get("title") or item.get("product", ""),
                 "flower": item.get("flower", ""),
-                "url": item["url"],
+                "url": ("https://fiftyflowers.com/products/" + product["handle"]) if is_collection(item["url"]) and product.get("handle") else item["url"],
                 "asOf": today,
             }
             print("ok    %-5s %-34s $%.2f a stem" % (flower_id, item.get("flower", "")[:34], prices[flower_id]["perStem"]))
