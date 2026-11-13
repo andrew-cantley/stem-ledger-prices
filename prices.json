@@ -196,6 +196,43 @@
    "product": "White Sweet Pea Flowers",
    "url": "https://fiftyflowers.com/products/sweet-pea-white-flower"
   },
+  "16": {
+   "asOf": "2026-11-13",
+   "bulkPack": "200 stems for $464.99",
+   "flower": "Lisianthus",
+   "pack": "20 stems for $144.99",
+   "packs": [
+    {
+     "id": 45141389803682,
+     "price": 144.99,
+     "stems": 20.0
+    },
+    {
+     "id": 39854128496802,
+     "price": 204.99,
+     "stems": 50.0
+    },
+    {
+     "id": 39854128529570,
+     "price": 279.99,
+     "stems": 100.0
+    },
+    {
+     "id": 39854128562338,
+     "price": 314.99,
+     "stems": 150.0
+    },
+    {
+     "id": 39854128595106,
+     "price": 464.99,
+     "stems": 200.0
+    }
+   ],
+   "perStem": 7.25,
+   "perStemBulk": 2.32,
+   "product": "White Lisianthus Wholesale Flower",
+   "url": "https://fiftyflowers.com/products/lisianthus-white-wholesale-flower"
+  },
   "17": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $444.99",
@@ -363,60 +400,45 @@
   },
   "21": {
    "asOf": "2026-11-13",
-   "bulkPack": "200 stems for $3684.99",
+   "bulkPack": "210 stems for $404.99",
    "flower": "Baby's Breath (Gypsophila)",
-   "pack": "5 stems for $134.99",
+   "pack": "7 stems for $79.99",
    "packs": [
     {
-     "id": 43665111089314,
-     "price": 134.99,
-     "stems": 5.0
+     "id": 37680432873634,
+     "price": 79.99,
+     "stems": 7.0
     },
     {
-     "id": 43617676165282,
-     "price": 219.99,
-     "stems": 10.0
+     "id": 37680432906402,
+     "price": 104.99,
+     "stems": 35.0
     },
     {
-     "id": 43617676198050,
-     "price": 309.99,
-     "stems": 15.0
+     "id": 37680432939170,
+     "price": 159.99,
+     "stems": 70.0
     },
     {
-     "id": 43617676099746,
-     "price": 399.99,
-     "stems": 20.0
+     "id": 37680432971938,
+     "price": 224.99,
+     "stems": 105.0
     },
     {
-     "id": 43617676230818,
-     "price": 479.99,
-     "stems": 25.0
+     "id": 37680433004706,
+     "price": 284.99,
+     "stems": 140.0
     },
     {
-     "id": 43617676263586,
-     "price": 954.99,
-     "stems": 50.0
-    },
-    {
-     "id": 43617676296354,
-     "price": 1414.99,
-     "stems": 75.0
-    },
-    {
-     "id": 43617676329122,
-     "price": 1879.99,
-     "stems": 100.0
-    },
-    {
-     "id": 43665111122082,
-     "price": 3684.99,
-     "stems": 200.0
+     "id": 37680433037474,
+     "price": 404.99,
+     "stems": 210.0
     }
    ],
-   "perStem": 27.0,
-   "perStemBulk": 18.42,
-   "product": "Baby's Breath Garland",
-   "url": "https://fiftyflowers.com/products/babys-breath-garland"
+   "perStem": 11.43,
+   "perStemBulk": 1.93,
+   "product": "Bulk Baby's Breath Flower Million Star",
+   "url": "https://fiftyflowers.com/products/bulk-babys-breath-flower-million-star"
   },
   "23": {
    "asOf": "2026-11-13",
@@ -718,25 +740,35 @@
   },
   "31": {
    "asOf": "2026-11-13",
-   "bulkPack": "240 stems for $414.99",
+   "bulkPack": "360 stems for $414.99",
    "flower": "Button Mum / Pompon",
-   "pack": "120 stems for $239.99",
+   "pack": "45 stems for $114.99",
    "packs": [
     {
-     "id": 45268087472290,
-     "price": 239.99,
-     "stems": 120.0
+     "id": 39854152220834,
+     "price": 114.99,
+     "stems": 45.0
     },
     {
-     "id": 45268087505058,
+     "id": 39854152253602,
+     "price": 164.99,
+     "stems": 90.0
+    },
+    {
+     "id": 39854152286370,
+     "price": 254.99,
+     "stems": 180.0
+    },
+    {
+     "id": 39854152319138,
      "price": 414.99,
-     "stems": 240.0
+     "stems": 360.0
     }
    ],
-   "perStem": 2.0,
-   "perStemBulk": 1.73,
-   "product": "Bright Magriet Daisy Flower Mix",
-   "url": "https://fiftyflowers.com/products/bright-magriet-daisy-flower-mix"
+   "perStem": 2.56,
+   "perStemBulk": 1.15,
+   "product": "Zip Mini Button Pom White Flower",
+   "url": "https://fiftyflowers.com/products/zip-mini-button-pom-white-flower"
   },
   "32": {
    "asOf": "2026-11-13",
@@ -1330,20 +1362,126 @@
   },
   "51": {
    "asOf": "2026-11-13",
-   "bulkPack": "1 stems for $144.99",
+   "bulkPack": "130 stems for $324.99",
    "flower": "Eucalyptus \u2013 Silver Dollar",
-   "pack": "1 stems for $144.99",
+   "pack": "32.5 stems for $154.99",
    "packs": [
     {
-     "id": 37888371916962,
-     "price": 144.99,
-     "stems": 1.0
+     "id": 39854206910626,
+     "price": 154.99,
+     "stems": 32.5
+    },
+    {
+     "id": 39854206943394,
+     "price": 209.99,
+     "stems": 65.0
+    },
+    {
+     "id": 39854206976162,
+     "price": 279.99,
+     "stems": 97.5
+    },
+    {
+     "id": 39854207008930,
+     "price": 324.99,
+     "stems": 130.0
     }
    ],
-   "perStem": 144.99,
-   "perStemBulk": 144.99,
-   "product": "Creamy Peach Protea DIY Tropical Flower Kit",
-   "url": "https://fiftyflowers.com/products/creamy-peach-protea-flower-collections"
+   "perStem": 4.77,
+   "perStemBulk": 2.5,
+   "product": "Silver Dollar Eucalyptus Greens",
+   "url": "https://fiftyflowers.com/products/silver-dollar-eucalyptus-greens"
+  },
+  "52": {
+   "asOf": "2026-11-13",
+   "bulkPack": "130 stems for $334.99",
+   "flower": "Eucalyptus \u2013 Seeded",
+   "pack": "32.5 stems for $154.99",
+   "packs": [
+    {
+     "id": 39854207074466,
+     "price": 154.99,
+     "stems": 32.5
+    },
+    {
+     "id": 39854207107234,
+     "price": 224.99,
+     "stems": 65.0
+    },
+    {
+     "id": 39854207140002,
+     "price": 289.99,
+     "stems": 97.5
+    },
+    {
+     "id": 39854207172770,
+     "price": 334.99,
+     "stems": 130.0
+    }
+   ],
+   "perStem": 4.77,
+   "perStemBulk": 2.58,
+   "product": "Seeded Eucalyptus Greenery",
+   "url": "https://fiftyflowers.com/products/Seeded-Eucalyptus-Greenery"
+  },
+  "53": {
+   "asOf": "2026-11-13",
+   "bulkPack": "130 stems for $359.99",
+   "flower": "Eucalyptus \u2013 Willow / Nicholii",
+   "pack": "65 stems for $224.99",
+   "packs": [
+    {
+     "id": 37680830677154,
+     "price": 224.99,
+     "stems": 65.0
+    },
+    {
+     "id": 37680830709922,
+     "price": 359.99,
+     "stems": 130.0
+    }
+   ],
+   "perStem": 3.46,
+   "perStemBulk": 2.77,
+   "product": "Choose Your Own Eucalyptus DIY Greenery Kit",
+   "url": "https://fiftyflowers.com/collections/greenery/products/choose-your-own-eucalyptus-greenery-premium-pack"
+  },
+  "54": {
+   "asOf": "2026-11-13",
+   "bulkPack": "195 stems for $444.99",
+   "flower": "Eucalyptus \u2013 Baby Blue",
+   "pack": "32.5 stems for $154.99",
+   "packs": [
+    {
+     "id": 39854207271074,
+     "price": 154.99,
+     "stems": 32.5
+    },
+    {
+     "id": 39854207303842,
+     "price": 224.99,
+     "stems": 65.0
+    },
+    {
+     "id": 39854207336610,
+     "price": 309.99,
+     "stems": 97.5
+    },
+    {
+     "id": 39854207369378,
+     "price": 339.99,
+     "stems": 130.0
+    },
+    {
+     "id": 39854207402146,
+     "price": 444.99,
+     "stems": 195.0
+    }
+   ],
+   "perStem": 4.77,
+   "perStemBulk": 2.28,
+   "product": "Baby Eucalyptus Greenery",
+   "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery"
   },
   "55": {
    "asOf": "2026-11-13",
@@ -1418,6 +1556,80 @@
    "perStemBulk": 0.74,
    "product": "Israeli Ruscus Greenery",
    "url": "https://fiftyflowers.com/products/israeli-ruscus-greenery"
+  },
+  "57": {
+   "asOf": "2026-11-13",
+   "bulkPack": "195 stems for $374.99",
+   "flower": "Leatherleaf Fern",
+   "pack": "32.5 stems for $144.99",
+   "packs": [
+    {
+     "id": 45269383872674,
+     "price": 144.99,
+     "stems": 32.5
+    },
+    {
+     "id": 45269383905442,
+     "price": 179.99,
+     "stems": 65.0
+    },
+    {
+     "id": 45269383938210,
+     "price": 254.99,
+     "stems": 97.5
+    },
+    {
+     "id": 45269383970978,
+     "price": 279.99,
+     "stems": 130.0
+    },
+    {
+     "id": 45269384003746,
+     "price": 374.99,
+     "stems": 195.0
+    }
+   ],
+   "perStem": 4.46,
+   "perStemBulk": 1.92,
+   "product": "Wedding Greenery Mix",
+   "url": "https://fiftyflowers.com/products/wedding-greenery-mix"
+  },
+  "58": {
+   "asOf": "2026-11-13",
+   "bulkPack": "345 stems for $479.99",
+   "flower": "Salal / Lemon Leaf",
+   "pack": "57.5 stems for $169.99",
+   "packs": [
+    {
+     "id": 40812938821794,
+     "price": 169.99,
+     "stems": 57.5
+    },
+    {
+     "id": 39854174896290,
+     "price": 219.99,
+     "stems": 115.0
+    },
+    {
+     "id": 39854174863522,
+     "price": 309.99,
+     "stems": 172.5
+    },
+    {
+     "id": 39854174830754,
+     "price": 349.99,
+     "stems": 230.0
+    },
+    {
+     "id": 43070426579106,
+     "price": 479.99,
+     "stems": 345.0
+    }
+   ],
+   "perStem": 2.96,
+   "perStemBulk": 1.39,
+   "product": "Salal Lemon Leaf Greenery",
+   "url": "https://fiftyflowers.com/products/salal-lemon-leaf-greenery"
   },
   "59": {
    "asOf": "2026-11-13",
@@ -1497,6 +1709,70 @@
    "perStemBulk": 2.15,
    "product": "White Ranunculus Fresh Cut Flower",
    "url": "https://fiftyflowers.com/products/white-ranunculus-fresh-cut-flower"
+  },
+  "60": {
+   "asOf": "2026-11-13",
+   "bulkPack": "270 stems for $434.99",
+   "flower": "Pittosporum",
+   "pack": "45 stems for $164.99",
+   "packs": [
+    {
+     "id": 39854161887394,
+     "price": 164.99,
+     "stems": 45.0
+    },
+    {
+     "id": 39854161920162,
+     "price": 204.99,
+     "stems": 90.0
+    },
+    {
+     "id": 39854161952930,
+     "price": 284.99,
+     "stems": 135.0
+    },
+    {
+     "id": 39854161985698,
+     "price": 314.99,
+     "stems": 180.0
+    },
+    {
+     "id": 39854162018466,
+     "price": 434.99,
+     "stems": 270.0
+    }
+   ],
+   "perStem": 3.67,
+   "perStemBulk": 1.61,
+   "product": "Pittosporum Greenery",
+   "url": "https://fiftyflowers.com/products/pittosporum-greenery"
+  },
+  "61": {
+   "asOf": "2026-11-13",
+   "bulkPack": "225 stems for $279.99",
+   "flower": "Sword Fern",
+   "pack": "90 stems for $179.99",
+   "packs": [
+    {
+     "id": 39854173585570,
+     "price": 179.99,
+     "stems": 90.0
+    },
+    {
+     "id": 39854173618338,
+     "price": 234.99,
+     "stems": 135.0
+    },
+    {
+     "id": 39854173651106,
+     "price": 279.99,
+     "stems": 225.0
+    }
+   ],
+   "perStem": 2.0,
+   "perStemBulk": 1.24,
+   "product": "Sword Fern Greens",
+   "url": "https://fiftyflowers.com/products/sword-fern-greens"
   },
   "62": {
    "asOf": "2026-11-13",
@@ -1733,6 +2009,43 @@
    "perStemBulk": 2.45,
    "product": "White with Dark Centers Fresh Cut Designer Anemones",
    "url": "https://fiftyflowers.com/products/white-with-dark-centers-fresh-cut-designer-anemones"
+  },
+  "70": {
+   "asOf": "2026-11-13",
+   "bulkPack": "270 stems for $279.99",
+   "flower": "Plumosus / Tree Fern",
+   "pack": "45 stems for $124.99",
+   "packs": [
+    {
+     "id": 39854171160738,
+     "price": 124.99,
+     "stems": 45.0
+    },
+    {
+     "id": 39854171193506,
+     "price": 164.99,
+     "stems": 90.0
+    },
+    {
+     "id": 39854171226274,
+     "price": 199.99,
+     "stems": 135.0
+    },
+    {
+     "id": 39854171259042,
+     "price": 224.99,
+     "stems": 180.0
+    },
+    {
+     "id": 39854171291810,
+     "price": 279.99,
+     "stems": 270.0
+    }
+   ],
+   "perStem": 2.78,
+   "perStemBulk": 1.04,
+   "product": "Plumosa Fern Greenery",
+   "url": "https://fiftyflowers.com/products/plumosa-fern-greenery"
   },
   "8": {
    "asOf": "2026-11-13",
@@ -2214,6 +2527,33 @@
    "product": "Assorted Poppy Pack",
    "url": "https://fiftyflowers.com/products/assorted-poppy-pack"
   },
+  "9016": {
+   "asOf": "2026-11-13",
+   "bulkPack": "97.5 stems for $354.99",
+   "flower": "Eucalyptus \u2013 Gunni",
+   "pack": "32.5 stems for $164.99",
+   "packs": [
+    {
+     "id": 37680670834850,
+     "price": 164.99,
+     "stems": 32.5
+    },
+    {
+     "id": 37680670867618,
+     "price": 279.99,
+     "stems": 65.0
+    },
+    {
+     "id": 37680670900386,
+     "price": 354.99,
+     "stems": 97.5
+    }
+   ],
+   "perStem": 5.08,
+   "perStemBulk": 3.64,
+   "product": "Gunnii Eucalyptus Greens",
+   "url": "https://fiftyflowers.com/products/gunnii-eucalyptus-greens"
+  },
   "9017": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $2799.99",
@@ -2418,6 +2758,33 @@
    "perStemBulk": 4.05,
    "product": "Natural Boho Dried Pampas Grass",
    "url": "https://fiftyflowers.com/products/dried-pampas-grass"
+  },
+  "9022": {
+   "asOf": "2026-11-13",
+   "bulkPack": "1170 stems for $534.99",
+   "flower": "Bunny Tail (dried)",
+   "pack": "292.5 stems for $174.99",
+   "packs": [
+    {
+     "id": 44731946172578,
+     "price": 174.99,
+     "stems": 292.5
+    },
+    {
+     "id": 44731946205346,
+     "price": 294.99,
+     "stems": 585.0
+    },
+    {
+     "id": 44731946238114,
+     "price": 534.99,
+     "stems": 1170.0
+    }
+   ],
+   "perStem": 0.6,
+   "perStemBulk": 0.46,
+   "product": "Rust Brown Dried Bunny Tail Grass",
+   "url": "https://fiftyflowers.com/products/rust-brown-dried-bunny-tail-grass"
   }
  },
  "shippingIncluded": true,
