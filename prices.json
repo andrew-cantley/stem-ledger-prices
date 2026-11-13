@@ -440,6 +440,43 @@
    "product": "Bulk Baby's Breath Flower Million Star",
    "url": "https://fiftyflowers.com/products/bulk-babys-breath-flower-million-star"
   },
+  "22": {
+   "asOf": "2026-11-13",
+   "bulkPack": "300 stems for $694.99",
+   "flower": "Waxflower",
+   "pack": "50 stems for $209.99",
+   "packs": [
+    {
+     "id": 37680442769570,
+     "price": 209.99,
+     "stems": 50.0
+    },
+    {
+     "id": 37680442802338,
+     "price": 279.99,
+     "stems": 100.0
+    },
+    {
+     "id": 37680442835106,
+     "price": 374.99,
+     "stems": 150.0
+    },
+    {
+     "id": 37680442867874,
+     "price": 494.99,
+     "stems": 200.0
+    },
+    {
+     "id": 37680442900642,
+     "price": 694.99,
+     "stems": 300.0
+    }
+   ],
+   "perStem": 4.2,
+   "perStemBulk": 2.32,
+   "product": "White Wax Flowers",
+   "url": "https://fiftyflowers.com/products/white-wax-flowers"
+  },
   "23": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $354.99",
@@ -1482,6 +1519,43 @@
    "perStemBulk": 2.28,
    "product": "Baby Eucalyptus Greenery",
    "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery"
+  },
+  "55": {
+   "asOf": "2026-11-13",
+   "bulkPack": "195 stems for $464.99",
+   "flower": "Italian Ruscus",
+   "pack": "32.5 stems for $199.99",
+   "packs": [
+    {
+     "id": 43653011275938,
+     "price": 199.99,
+     "stems": 32.5
+    },
+    {
+     "id": 43653011308706,
+     "price": 224.99,
+     "stems": 65.0
+    },
+    {
+     "id": 43653011341474,
+     "price": 294.99,
+     "stems": 97.5
+    },
+    {
+     "id": 43653011374242,
+     "price": 349.99,
+     "stems": 130.0
+    },
+    {
+     "id": 43653011407010,
+     "price": 464.99,
+     "stems": 195.0
+    }
+   ],
+   "perStem": 6.15,
+   "perStemBulk": 2.38,
+   "product": "Italian Ruscus Greenery",
+   "url": "https://fiftyflowers.com/products/italian-ruscus-greenery"
   },
   "56": {
    "asOf": "2026-11-13",
