@@ -289,109 +289,102 @@
   },
   "16": {
    "flower": "Lisianthus",
-   "url": "https://fiftyflowers.com/collections/lisianthus",
-   "match": [
-    "lisianthus"
-   ],
+   "url": "https://fiftyflowers.com/products/lisianthus-white-wholesale-flower",
+   "note": "collection page: sold in 10-stem bunches",
    "stemsPerBunch": 10
   },
   "21": {
    "flower": "Baby's Breath (Gypsophila)",
-   "url": "https://fiftyflowers.com/collections/babys-breath-flower",
-   "match": [
-    "baby"
-   ],
+   "url": "https://fiftyflowers.com/products/bulk-babys-breath-flower-million-star",
+   "note": "collection page: bunches of 5 to 9 stems",
    "stemsPerBunch": 7
   },
   "22": {
    "flower": "Waxflower",
-   "url": "https://fiftyflowers.com/collections/wax-flower",
-   "match": [
-    "wax"
-   ]
+   "url": "https://fiftyflowers.com/products/white-wax-flowers",
+   "note": "stems per bunch not confirmed, so no price until it is"
   },
   "31": {
    "flower": "Button Mum / Pompon",
-   "url": "https://fiftyflowers.com/collections/daisies-poms",
-   "match": [
-    "button",
-    "pom"
-   ],
+   "url": "https://fiftyflowers.com/products/zip-mini-button-pom-white-flower",
+   "note": "collection page: bunches of 5 to 10 stems",
    "stemsPerBunch": 7.5
   },
   "44": {
    "flower": "Cosmos",
-   "url": "https://fiftyflowers.com/collections/cosmos",
-   "match": [
-    "cosmos"
-   ]
+   "url": "https://fiftyflowers.com/products/chocolate-cosmos-flower",
+   "note": "the only cosmos sold is chocolate cosmos"
   },
   "9022": {
    "flower": "Bunny Tail (dried)",
    "url": "https://fiftyflowers.com/products/rust-brown-dried-bunny-tail-grass",
-   "stemsPerBunch": 32.5
+   "stemsPerBunch": 32.5,
+   "note": "product page: 30-35 stems"
   },
   "51": {
    "flower": "Eucalyptus – Silver Dollar",
-   "url": "https://fiftyflowers.com/collections/silver-dollar-eucalyptus",
-   "match": [
-    "silver dollar"
-   ]
+   "url": "https://fiftyflowers.com/products/silver-dollar-eucalyptus-greens",
+   "note": "eucalyptus kit page: a grower's bunch is typically 5 to 8 stems",
+   "stemsPerBunch": 6.5
   },
   "52": {
    "flower": "Eucalyptus – Seeded",
    "url": "https://fiftyflowers.com/products/Seeded-Eucalyptus-Greenery",
-   "stemsPerBunch": 6.5
+   "stemsPerBunch": 6.5,
+   "note": "product page: 5-8 stems"
   },
   "53": {
    "flower": "Eucalyptus – Willow / Nicholii",
    "url": "https://fiftyflowers.com/collections/greenery/products/choose-your-own-eucalyptus-greenery-premium-pack",
-   "stemsPerBunch": 6.5
+   "stemsPerBunch": 6.5,
+   "note": "product page: 5-8 stems; choose-your-own kit"
   },
   "54": {
    "flower": "Eucalyptus – Baby Blue",
    "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery",
-   "stemsPerBunch": 6.5
+   "stemsPerBunch": 6.5,
+   "note": "product page: 5-8 stems"
   },
   "9016": {
    "flower": "Eucalyptus – Gunni",
    "url": "https://fiftyflowers.com/products/gunnii-eucalyptus-greens",
-   "stemsPerBunch": 6.5
+   "stemsPerBunch": 6.5,
+   "note": "product page: 5-8 stems"
   },
   "55": {
    "flower": "Italian Ruscus",
-   "url": "https://fiftyflowers.com/collections/italian-ruscus",
-   "match": [
-    "ruscus"
-   ],
-   "prefer": [
-    "italian"
-   ]
+   "url": "https://fiftyflowers.com/products/italian-ruscus-greenery",
+   "note": "stems per bunch not confirmed, so no price until it is"
   },
   "57": {
    "flower": "Leatherleaf Fern",
    "url": "https://fiftyflowers.com/products/wedding-greenery-mix",
-   "stemsPerBunch": 6.5
+   "stemsPerBunch": 6.5,
+   "note": "product page: 5-8 stems; mix of lily grass, leather leaf, ivy, Israeli ruscus, pittosporum"
   },
   "58": {
    "flower": "Salal / Lemon Leaf",
    "url": "https://fiftyflowers.com/products/salal-lemon-leaf-greenery",
-   "stemsPerBunch": 11.5
+   "stemsPerBunch": 11.5,
+   "note": "product page: 8-15 stems"
   },
   "60": {
    "flower": "Pittosporum",
    "url": "https://fiftyflowers.com/products/pittosporum-greenery",
-   "stemsPerBunch": 9
+   "stemsPerBunch": 9,
+   "note": "product page: 8-10 stems"
   },
   "61": {
    "flower": "Sword Fern",
    "url": "https://fiftyflowers.com/products/sword-fern-greens",
-   "stemsPerBunch": 9
+   "stemsPerBunch": 9,
+   "note": "product page: 8-10 stems"
   },
   "70": {
    "flower": "Plumosus / Tree Fern",
    "url": "https://fiftyflowers.com/products/plumosa-fern-greenery",
-   "stemsPerBunch": 9
+   "stemsPerBunch": 9,
+   "note": "product page: 8-10 stems"
   },
   "9017": {
    "flower": "Nagi",
