@@ -1,0 +1,307 @@
+{
+ "source": "FiftyFlowers",
+ "shippingIncluded": true,
+ "_note": "One FiftyFlowers product stands in for each Stem Ledger flower. To change one, replace its url with another product page address. To add a flower, add its Stem Ledger id.",
+ "products": {
+  "1": {
+   "flower": "Standard / Hybrid Tea Rose",
+   "url": "https://fiftyflowers.com/products/mondial-white-rose"
+  },
+  "2": {
+   "flower": "Garden Rose / David Austin",
+   "url": "https://fiftyflowers.com/products/white-ohara-garden-rose"
+  },
+  "3": {
+   "flower": "Spray Rose",
+   "url": "https://fiftyflowers.com/products/floreana-white-spray-roses"
+  },
+  "4": {
+   "flower": "Peony",
+   "url": "https://fiftyflowers.com/products/duchess-white-peonies"
+  },
+  "5": {
+   "flower": "Hydrangea (full mophead)",
+   "url": "https://fiftyflowers.com/products/white-hydrangea-flower"
+  },
+  "6": {
+   "flower": "Ranunculus",
+   "url": "https://fiftyflowers.com/products/white-ranunculus-fresh-cut-flower"
+  },
+  "7": {
+   "flower": "Anemone",
+   "url": "https://fiftyflowers.com/products/white-with-dark-centers-fresh-cut-designer-anemones"
+  },
+  "8": {
+   "flower": "Dahlia (medium–large)",
+   "url": "https://fiftyflowers.com/products/white-dahlia-flower"
+  },
+  "9": {
+   "flower": "Dinner-plate Dahlia",
+   "url": "https://fiftyflowers.com/products/bridal-white-dinner-plate-dahlia"
+  },
+  "10": {
+   "flower": "Calla Lily (standard)",
+   "url": "https://fiftyflowers.com/products/white-standard-calla-lily-flower"
+  },
+  "11": {
+   "flower": "Lily – Asiatic",
+   "url": "https://fiftyflowers.com/products/light-pink-asiatic-lily"
+  },
+  "12": {
+   "flower": "Orchid – Phalaenopsis",
+   "url": "https://fiftyflowers.com/products/phalaenopsis-orchid-white"
+  },
+  "13": {
+   "flower": "Orchid – Cymbidium",
+   "url": "https://fiftyflowers.com/products/white-cymbidium-orchids-blush-pink-lip"
+  },
+  "14": {
+   "flower": "Tulip",
+   "url": "https://fiftyflowers.com/products/white-bulk-tulips"
+  },
+  "15": {
+   "flower": "Sweet Pea",
+   "url": "https://fiftyflowers.com/products/sweet-pea-white-flower"
+  },
+  "17": {
+   "flower": "Scabiosa",
+   "url": "https://fiftyflowers.com/products/white-scabiosa-flower"
+  },
+  "18": {
+   "flower": "Stock",
+   "url": "https://fiftyflowers.com/products/stock-white-flower"
+  },
+  "19": {
+   "flower": "Snapdragon",
+   "url": "https://fiftyflowers.com/products/snapdragon-white-flower"
+  },
+  "20": {
+   "flower": "Delphinium / Larkspur",
+   "url": "https://fiftyflowers.com/products/white-delphinium-flower"
+  },
+  "23": {
+   "flower": "Queen Anne's Lace / Ammi",
+   "url": "https://fiftyflowers.com/products/queen-annes-lace-filler-flower"
+  },
+  "24": {
+   "flower": "Solidago / Goldenrod",
+   "url": "https://fiftyflowers.com/products/solidago-flowers-yellow"
+  },
+  "25": {
+   "flower": "Statice (sinuata)",
+   "url": "https://fiftyflowers.com/products/tissue-culture-statice-white-flower"
+  },
+  "26": {
+   "flower": "Hypericum (berries)",
+   "url": "https://fiftyflowers.com/products/creamy-white-hypericum-berries"
+  },
+  "27": {
+   "flower": "Carnations (standard)",
+   "url": "https://fiftyflowers.com/products/white-carnations-flower"
+  },
+  "28": {
+   "flower": "Mini / Spray Carnations",
+   "url": "https://fiftyflowers.com/products/white-carnation-flowers-spray"
+  },
+  "29": {
+   "flower": "Chrysanthemum – Football Mum",
+   "url": "https://fiftyflowers.com/products/white-football-mum-flower"
+  },
+  "30": {
+   "flower": "Chrysanthemum – Spider / Decorative",
+   "url": "https://fiftyflowers.com/products/anastasia-spider-white-flowers"
+  },
+  "32": {
+   "flower": "Sunflower (standard)",
+   "url": "https://fiftyflowers.com/products/sunflowers"
+  },
+  "33": {
+   "flower": "Gerbera Daisy",
+   "url": "https://fiftyflowers.com/products/white-gerber-daisy-flower"
+  },
+  "34": {
+   "flower": "Alstroemeria",
+   "url": "https://fiftyflowers.com/products/white-alstroemeria-fresh-flower"
+  },
+  "35": {
+   "flower": "Freesia",
+   "url": "https://fiftyflowers.com/products/white-freesia-flower"
+  },
+  "36": {
+   "flower": "Iris",
+   "url": "https://fiftyflowers.com/products/iris-pure-white-with-yellow-flower"
+  },
+  "37": {
+   "flower": "Lilac",
+   "url": "https://fiftyflowers.com/products/white-lilac-flower"
+  },
+  "38": {
+   "flower": "Lily of the Valley",
+   "url": "https://fiftyflowers.com/products/lily-of-the-valley-flower"
+  },
+  "39": {
+   "flower": "Hellebore",
+   "url": "https://fiftyflowers.com/products/hues-of-pink-designer-hellebore-flowers"
+  },
+  "40": {
+   "flower": "Amaryllis",
+   "url": "https://fiftyflowers.com/products/amaryllis-white-bulk-flower"
+  },
+  "41": {
+   "flower": "Anthurium",
+   "url": "https://fiftyflowers.com/products/seashell-white-tropical-anthurium-flower"
+  },
+  "42": {
+   "flower": "Protea – Pincushion",
+   "url": "https://fiftyflowers.com/products/orange-pin-cushion-flower"
+  },
+  "45": {
+   "flower": "Celosia – Plume",
+   "url": "https://fiftyflowers.com/products/golden-yellow-feather-celosia"
+  },
+  "46": {
+   "flower": "Amaranthus (cascading)",
+   "url": "https://fiftyflowers.com/products/green-hanging-amaranthus-bulk-fall-greens"
+  },
+  "47": {
+   "flower": "Astilbe",
+   "url": "https://fiftyflowers.com/products/white-astilbe-flower-november-to-april"
+  },
+  "48": {
+   "flower": "Veronica / Speedwell",
+   "url": "https://fiftyflowers.com/products/veronica-white-flower"
+  },
+  "49": {
+   "flower": "Craspedia (Billy Buttons)",
+   "url": "https://fiftyflowers.com/products/craspedia-billy-balls-yellow-flower"
+  },
+  "50": {
+   "flower": "Dusty Miller",
+   "url": "https://fiftyflowers.com/products/dusty-miller-greens"
+  },
+  "56": {
+   "flower": "Israeli Ruscus",
+   "url": "https://fiftyflowers.com/products/israeli-ruscus-greenery"
+  },
+  "59": {
+   "flower": "Olive Branch",
+   "url": "https://fiftyflowers.com/products/fresh-cut-olive-greenery"
+  },
+  "62": {
+   "flower": "Ivy (English / trailing)",
+   "url": "https://fiftyflowers.com/products/cascading-ivy-greenery"
+  },
+  "64": {
+   "flower": "Huckleberry / Huck",
+   "url": "https://fiftyflowers.com/products/huckleberry-greens"
+  },
+  "65": {
+   "flower": "Magnolia Leaves",
+   "url": "https://fiftyflowers.com/products/magnolia-greenery"
+  },
+  "66": {
+   "flower": "Monstera / Tropical Leaf",
+   "url": "https://fiftyflowers.com/products/monstera-leaves-tropical-greenery-medium"
+  },
+  "67": {
+   "flower": "Palm / Fan Palm",
+   "url": "https://fiftyflowers.com/products/palmetto-fans-green-bulk-filler"
+  },
+  "68": {
+   "flower": "Smilax / Vine",
+   "url": "https://fiftyflowers.com/products/smilax-greenery-wedding-vine"
+  },
+  "69": {
+   "flower": "Aspidistra / Cast Iron Leaf",
+   "url": "https://fiftyflowers.com/products/aspidistra-leaf-greenery"
+  },
+  "9001": {
+   "flower": "Lily – Oriental / Stargazer",
+   "url": "https://fiftyflowers.com/products/white-oriental-lilies"
+  },
+  "9003": {
+   "flower": "Limonium (Misty)",
+   "url": "https://fiftyflowers.com/products/white-limonium-flowers"
+  },
+  "9004": {
+   "flower": "Protea – King",
+   "url": "https://fiftyflowers.com/products/king-protea-flower"
+  },
+  "9005": {
+   "flower": "Celosia – Cockscomb",
+   "url": "https://fiftyflowers.com/products/celosia-coxcomb-pink-wholesale-flowers"
+  },
+  "9006": {
+   "flower": "Viburnum (Snowball)",
+   "url": "https://fiftyflowers.com/products/green-viburnum-flower"
+  },
+  "9007": {
+   "flower": "Thistle (Eryngium)",
+   "url": "https://fiftyflowers.com/products/blue-thistle-flower"
+  },
+  "9008": {
+   "flower": "Astrantia",
+   "url": "https://fiftyflowers.com/products/ivory-white-wedding-astrantia"
+  },
+  "9009": {
+   "flower": "Feverfew / Chamomile",
+   "url": "https://fiftyflowers.com/products/feverfew-daisy-wholesale-cut-flower"
+  },
+  "9010": {
+   "flower": "Yarrow (Achillea)",
+   "url": "https://fiftyflowers.com/products/ivory-white-cottage-yarrow-flowers"
+  },
+  "9011": {
+   "flower": "Nigella",
+   "url": "https://fiftyflowers.com/products/love-in-a-mist-white-nigella"
+  },
+  "9012": {
+   "flower": "Butterfly Ranunculus",
+   "url": "https://fiftyflowers.com/products/creamy-white-butterfly-ranunculus-flower"
+  },
+  "9013": {
+   "flower": "Dahlia – Ball",
+   "url": "https://fiftyflowers.com/products/ball-white-dahlia"
+  },
+  "9015": {
+   "flower": "Icelandic Poppy",
+   "url": "https://fiftyflowers.com/products/assorted-poppy-pack"
+  },
+  "9018": {
+   "flower": "Lamb's Ear",
+   "url": "https://fiftyflowers.com/products/lambs-ear-greenery"
+  },
+  "9020": {
+   "flower": "Leucadendron",
+   "url": "https://fiftyflowers.com/products/safari-sunset-leucadendron"
+  },
+  "9021": {
+   "flower": "Pampas Grass (dried)",
+   "url": "https://fiftyflowers.com/products/dried-pampas-grass"
+  }
+ },
+ "_not_found_at_fiftyflowers": [
+  "Lisianthus",
+  "Baby's Breath (Gypsophila)",
+  "Waxflower",
+  "Button Mum / Pompon",
+  "Zinnia",
+  "Cosmos",
+  "Eucalyptus – Silver Dollar",
+  "Eucalyptus – Seeded",
+  "Eucalyptus – Willow / Nicholii",
+  "Eucalyptus – Baby Blue",
+  "Italian Ruscus",
+  "Leatherleaf Fern",
+  "Salal / Lemon Leaf",
+  "Pittosporum",
+  "Sword Fern",
+  "Myrtle",
+  "Plumosus / Tree Fern",
+  "Clematis",
+  "Eucalyptus – Gunni",
+  "Nagi",
+  "Springeri (Asparagus Fern)",
+  "Bunny Tail (dried)"
+ ]
+}
