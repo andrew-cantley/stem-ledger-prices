@@ -1,7 +1,7 @@
 {
  "source": "FiftyFlowers",
  "shippingIncluded": true,
- "_note": "One FiftyFlowers product stands in for each Stem Ledger flower. To change one, replace its url with another product page address. To add a flower, add its Stem Ledger id.",
+ "_note": "One FiftyFlowers product stands in for each Stem Ledger flower. To change one, replace its url with another product page address. To add a flower, add its Stem Ledger id. stemsPerBunch is used only when a product is sold by the bunch and its page data gives no stem count; correct it if your bunches differ.",
  "products": {
   "1": {
    "flower": "Standard / Hybrid Tea Rose",
@@ -181,23 +181,28 @@
   },
   "56": {
    "flower": "Israeli Ruscus",
-   "url": "https://fiftyflowers.com/products/israeli-ruscus-greenery"
+   "url": "https://fiftyflowers.com/products/israeli-ruscus-greenery",
+   "stemsPerBunch": 15
   },
   "59": {
    "flower": "Olive Branch",
-   "url": "https://fiftyflowers.com/products/fresh-cut-olive-greenery"
+   "url": "https://fiftyflowers.com/products/fresh-cut-olive-greenery",
+   "stemsPerBunch": 7.5
   },
   "62": {
    "flower": "Ivy (English / trailing)",
-   "url": "https://fiftyflowers.com/products/cascading-ivy-greenery"
+   "url": "https://fiftyflowers.com/products/cascading-ivy-greenery",
+   "stemsPerBunch": 15
   },
   "64": {
    "flower": "Huckleberry / Huck",
-   "url": "https://fiftyflowers.com/products/huckleberry-greens"
+   "url": "https://fiftyflowers.com/products/huckleberry-greens",
+   "stemsPerBunch": 15
   },
   "65": {
    "flower": "Magnolia Leaves",
-   "url": "https://fiftyflowers.com/products/magnolia-greenery"
+   "url": "https://fiftyflowers.com/products/magnolia-greenery",
+   "stemsPerBunch": 5
   },
   "66": {
    "flower": "Monstera / Tropical Leaf",
@@ -205,7 +210,8 @@
   },
   "67": {
    "flower": "Palm / Fan Palm",
-   "url": "https://fiftyflowers.com/products/palmetto-fans-green-bulk-filler"
+   "url": "https://fiftyflowers.com/products/palmetto-fans-green-bulk-filler",
+   "stemsPerBunch": 5
   },
   "68": {
    "flower": "Smilax / Vine",
@@ -213,7 +219,8 @@
   },
   "69": {
    "flower": "Aspidistra / Cast Iron Leaf",
-   "url": "https://fiftyflowers.com/products/aspidistra-leaf-greenery"
+   "url": "https://fiftyflowers.com/products/aspidistra-leaf-greenery",
+   "stemsPerBunch": 15
   },
   "9001": {
    "flower": "Lily – Oriental / Stargazer",
@@ -269,7 +276,8 @@
   },
   "9018": {
    "flower": "Lamb's Ear",
-   "url": "https://fiftyflowers.com/products/lambs-ear-greenery"
+   "url": "https://fiftyflowers.com/products/lambs-ear-greenery",
+   "stemsPerBunch": 10
   },
   "9020": {
    "flower": "Leucadendron",

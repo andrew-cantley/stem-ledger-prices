@@ -86,8 +86,9 @@ def stems_per_bunch(product):
     return _avg(m.group(1), m.group(2)) if m else None
 
 
-def options_for(product):
-    per_bunch = stems_per_bunch(product)
+def options_for(product, per_bunch_hint=None):
+    # stems per bunch: from the page if it says, otherwise the figure noted in products.json
+    per_bunch = stems_per_bunch(product) or per_bunch_hint
     out = []
     for v in product.get("variants", []):
         label = str(v.get("title") or v.get("option1") or "")
@@ -116,7 +117,7 @@ def main():
     for flower_id, item in config["products"].items():
         try:
             product = load_product(item["url"])
-            options = options_for(product)
+            options = options_for(product, item.get("stemsPerBunch"))
             if not options:
                 labels = [" ".join(str(x) for x in [v.get("title"), v.get("option1"), v.get("option2")] if x) + " @" + str(v.get("price")) for v in product.get("variants", [])][:4]
                 text = re.sub(r"<[^>]+>", " ", str(product.get("description") or product.get("body_html") or ""))
