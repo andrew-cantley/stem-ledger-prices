@@ -302,7 +302,8 @@
   "22": {
    "flower": "Waxflower",
    "url": "https://fiftyflowers.com/products/white-wax-flowers",
-   "note": "stems per bunch not confirmed, so no price until it is"
+   "note": "product page: 8-12 stems (from Andrew)",
+   "stemsPerBunch": 10
   },
   "31": {
    "flower": "Button Mum / Pompon",
@@ -354,7 +355,8 @@
   "55": {
    "flower": "Italian Ruscus",
    "url": "https://fiftyflowers.com/products/italian-ruscus-greenery",
-   "note": "stems per bunch not confirmed, so no price until it is"
+   "note": "product page: 5-8 stems (from Andrew)",
+   "stemsPerBunch": 6.5
   },
   "57": {
    "flower": "Wedding Greenery Mix (leatherleaf, pittosporum, ruscus, ivy, lily grass)",
@@ -405,9 +407,5 @@
   "Zinnia",
   "Clematis",
   "Myrtle"
- ],
- "_no_price_until_stems_per_bunch_is_confirmed": [
-  "Waxflower",
-  "Italian Ruscus"
  ]
 }
