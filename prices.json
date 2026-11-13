@@ -1082,6 +1082,70 @@
    "product": "Dusty Miller Greens",
    "url": "https://fiftyflowers.com/products/dusty-miller-greens"
   },
+  "56": {
+   "asOf": "2026-11-13",
+   "bulkPack": "450 stems for $334.99",
+   "flower": "Israeli Ruscus",
+   "pack": "75 stems for $119.99",
+   "packs": [
+    {
+     "price": 119.99,
+     "stems": 75.0
+    },
+    {
+     "price": 169.99,
+     "stems": 150.0
+    },
+    {
+     "price": 209.99,
+     "stems": 225.0
+    },
+    {
+     "price": 269.99,
+     "stems": 300.0
+    },
+    {
+     "price": 334.99,
+     "stems": 450.0
+    }
+   ],
+   "perStem": 1.6,
+   "perStemBulk": 0.74,
+   "product": "Israeli Ruscus Greenery",
+   "url": "https://fiftyflowers.com/products/israeli-ruscus-greenery"
+  },
+  "59": {
+   "asOf": "2026-11-13",
+   "bulkPack": "225 stems for $449.99",
+   "flower": "Olive Branch",
+   "pack": "37.5 stems for $174.99",
+   "packs": [
+    {
+     "price": 174.99,
+     "stems": 37.5
+    },
+    {
+     "price": 219.99,
+     "stems": 75.0
+    },
+    {
+     "price": 254.99,
+     "stems": 112.5
+    },
+    {
+     "price": 334.99,
+     "stems": 150.0
+    },
+    {
+     "price": 449.99,
+     "stems": 225.0
+    }
+   ],
+   "perStem": 4.67,
+   "perStemBulk": 2.0,
+   "product": "Fresh Cut Olive Greenery",
+   "url": "https://fiftyflowers.com/products/fresh-cut-olive-greenery"
+  },
   "6": {
    "asOf": "2026-11-13",
    "bulkPack": "300 stems for $644.99",
@@ -1118,6 +1182,94 @@
    "product": "White Ranunculus Fresh Cut Flower",
    "url": "https://fiftyflowers.com/products/white-ranunculus-fresh-cut-flower"
   },
+  "62": {
+   "asOf": "2026-11-13",
+   "bulkPack": "450 stems for $399.99",
+   "flower": "Ivy (English / trailing)",
+   "pack": "75 stems for $164.99",
+   "packs": [
+    {
+     "price": 164.99,
+     "stems": 75.0
+    },
+    {
+     "price": 204.99,
+     "stems": 150.0
+    },
+    {
+     "price": 239.99,
+     "stems": 225.0
+    },
+    {
+     "price": 279.99,
+     "stems": 300.0
+    },
+    {
+     "price": 399.99,
+     "stems": 450.0
+    }
+   ],
+   "perStem": 2.2,
+   "perStemBulk": 0.89,
+   "product": "Cascading Ivy Greenery",
+   "url": "https://fiftyflowers.com/products/cascading-ivy-greenery"
+  },
+  "64": {
+   "asOf": "2026-11-13",
+   "bulkPack": "450 stems for $519.99",
+   "flower": "Huckleberry / Huck",
+   "pack": "75 stems for $174.99",
+   "packs": [
+    {
+     "price": 174.99,
+     "stems": 75.0
+    },
+    {
+     "price": 229.99,
+     "stems": 150.0
+    },
+    {
+     "price": 284.99,
+     "stems": 225.0
+    },
+    {
+     "price": 379.99,
+     "stems": 300.0
+    },
+    {
+     "price": 519.99,
+     "stems": 450.0
+    }
+   ],
+   "perStem": 2.33,
+   "perStemBulk": 1.16,
+   "product": "Huckleberry Greens",
+   "url": "https://fiftyflowers.com/products/huckleberry-greens"
+  },
+  "65": {
+   "asOf": "2026-11-13",
+   "bulkPack": "125 stems for $434.99",
+   "flower": "Magnolia Leaves",
+   "pack": "40 stems for $234.99",
+   "packs": [
+    {
+     "price": 234.99,
+     "stems": 40.0
+    },
+    {
+     "price": 314.99,
+     "stems": 80.0
+    },
+    {
+     "price": 434.99,
+     "stems": 125.0
+    }
+   ],
+   "perStem": 5.87,
+   "perStemBulk": 3.48,
+   "product": "Magnolia Greenery",
+   "url": "https://fiftyflowers.com/products/magnolia-greenery"
+  },
   "66": {
    "asOf": "2026-11-13",
    "bulkPack": "60 stems for $349.99",
@@ -1138,6 +1290,22 @@
    "product": "Medium Monstera Leaves Tropical Greenery",
    "url": "https://fiftyflowers.com/products/monstera-leaves-tropical-greenery-medium"
   },
+  "67": {
+   "asOf": "2026-11-13",
+   "bulkPack": "50 stems for $209.99",
+   "flower": "Palm / Fan Palm",
+   "pack": "50 stems for $209.99",
+   "packs": [
+    {
+     "price": 209.99,
+     "stems": 50.0
+    }
+   ],
+   "perStem": 4.2,
+   "perStemBulk": 4.2,
+   "product": "Palmetto Fans Green Bulk Filler",
+   "url": "https://fiftyflowers.com/products/palmetto-fans-green-bulk-filler"
+  },
   "68": {
    "asOf": "2026-11-13",
    "bulkPack": "10 stems for $299.99",
@@ -1157,6 +1325,38 @@
    "perStemBulk": 30.0,
    "product": "String Smilax Greenery Wedding Vine",
    "url": "https://fiftyflowers.com/products/smilax-greenery-wedding-vine"
+  },
+  "69": {
+   "asOf": "2026-11-13",
+   "bulkPack": "450 stems for $244.99",
+   "flower": "Aspidistra / Cast Iron Leaf",
+   "pack": "75 stems for $149.99",
+   "packs": [
+    {
+     "price": 149.99,
+     "stems": 75.0
+    },
+    {
+     "price": 169.99,
+     "stems": 150.0
+    },
+    {
+     "price": 194.99,
+     "stems": 225.0
+    },
+    {
+     "price": 209.99,
+     "stems": 300.0
+    },
+    {
+     "price": 244.99,
+     "stems": 450.0
+    }
+   ],
+   "perStem": 2.0,
+   "perStemBulk": 0.54,
+   "product": "Aspidistra Leaf Greenery",
+   "url": "https://fiftyflowers.com/products/aspidistra-leaf-greenery"
   },
   "7": {
    "asOf": "2026-11-13",
@@ -1609,6 +1809,34 @@
    "perStemBulk": 1.92,
    "product": "Assorted Poppy Pack",
    "url": "https://fiftyflowers.com/products/assorted-poppy-pack"
+  },
+  "9018": {
+   "asOf": "2026-11-13",
+   "bulkPack": "200 stems for $354.99",
+   "flower": "Lamb's Ear",
+   "pack": "50 stems for $174.99",
+   "packs": [
+    {
+     "price": 174.99,
+     "stems": 50.0
+    },
+    {
+     "price": 234.99,
+     "stems": 100.0
+    },
+    {
+     "price": 289.99,
+     "stems": 150.0
+    },
+    {
+     "price": 354.99,
+     "stems": 200.0
+    }
+   ],
+   "perStem": 3.5,
+   "perStemBulk": 1.77,
+   "product": "Lamb's Ear Greenery",
+   "url": "https://fiftyflowers.com/products/lambs-ear-greenery"
   },
   "9020": {
    "asOf": "2026-11-13",
