@@ -2,21 +2,173 @@
  "app": "stem-ledger-prices",
  "date": "2026-11-13",
  "prices": {
+  "1": {
+   "asOf": "2026-11-13",
+   "bulkPack": "150 stems for $389.99",
+   "flower": "Standard / Hybrid Tea Rose",
+   "pack": "25 stems for $109.99",
+   "packs": [
+    {
+     "price": 109.99,
+     "stems": 25.0
+    },
+    {
+     "price": 154.99,
+     "stems": 50.0
+    },
+    {
+     "price": 209.99,
+     "stems": 75.0
+    },
+    {
+     "price": 269.99,
+     "stems": 100.0
+    },
+    {
+     "price": 329.99,
+     "stems": 125.0
+    },
+    {
+     "price": 389.99,
+     "stems": 150.0
+    }
+   ],
+   "perStem": 4.4,
+   "perStemBulk": 2.6,
+   "product": "Mondial White Rose",
+   "url": "https://fiftyflowers.com/products/mondial-white-rose"
+  },
+  "10": {
+   "asOf": "2026-11-13",
+   "bulkPack": "50 stems for $279.99",
+   "flower": "Calla Lily (standard)",
+   "pack": "25 stems for $179.99",
+   "packs": [
+    {
+     "price": 179.99,
+     "stems": 25.0
+    },
+    {
+     "price": 279.99,
+     "stems": 50.0
+    }
+   ],
+   "perStem": 7.2,
+   "perStemBulk": 5.6,
+   "product": "White Standard Calla Lily Flower",
+   "url": "https://fiftyflowers.com/products/white-standard-calla-lily-flower"
+  },
   "11": {
    "asOf": "2026-11-13",
    "bulkPack": "100 stems for $314.99",
    "flower": "Lily \u2013 Asiatic",
    "pack": "20 stems for $144.99",
+   "packs": [
+    {
+     "price": 144.99,
+     "stems": 20.0
+    },
+    {
+     "price": 199.99,
+     "stems": 50.0
+    },
+    {
+     "price": 314.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 7.25,
    "perStemBulk": 3.15,
    "product": "Light Pink Asiatic Lily",
    "url": "https://fiftyflowers.com/products/light-pink-asiatic-lily"
+  },
+  "12": {
+   "asOf": "2026-11-13",
+   "bulkPack": "10 stems for $414.99",
+   "flower": "Orchid \u2013 Phalaenopsis",
+   "pack": "10 stems for $414.99",
+   "packs": [
+    {
+     "price": 414.99,
+     "stems": 10.0
+    }
+   ],
+   "perStem": 41.5,
+   "perStemBulk": 41.5,
+   "product": "White Phalaenopsis Orchid",
+   "url": "https://fiftyflowers.com/products/phalaenopsis-orchid-white"
+  },
+  "13": {
+   "asOf": "2026-11-13",
+   "bulkPack": "10 stems for $469.99",
+   "flower": "Orchid \u2013 Cymbidium",
+   "pack": "6 stems for $299.99",
+   "packs": [
+    {
+     "price": 299.99,
+     "stems": 6.0
+    },
+    {
+     "price": 394.99,
+     "stems": 8.0
+    },
+    {
+     "price": 469.99,
+     "stems": 10.0
+    }
+   ],
+   "perStem": 50.0,
+   "perStemBulk": 47.0,
+   "product": "White Blush Pink Lip Cymbidium Orchids",
+   "url": "https://fiftyflowers.com/products/white-cymbidium-orchids-blush-pink-lip"
+  },
+  "14": {
+   "asOf": "2026-11-13",
+   "bulkPack": "300 stems for $654.99",
+   "flower": "Tulip",
+   "pack": "50 stems for $204.99",
+   "packs": [
+    {
+     "price": 204.99,
+     "stems": 50.0
+    },
+    {
+     "price": 294.99,
+     "stems": 100.0
+    },
+    {
+     "price": 394.99,
+     "stems": 150.0
+    },
+    {
+     "price": 469.99,
+     "stems": 200.0
+    },
+    {
+     "price": 654.99,
+     "stems": 300.0
+    }
+   ],
+   "perStem": 4.1,
+   "perStemBulk": 2.18,
+   "product": "White Bulk Tulips",
+   "url": "https://fiftyflowers.com/products/white-bulk-tulips"
   },
   "15": {
    "asOf": "2026-11-13",
    "bulkPack": "80 stems for $234.99",
    "flower": "Sweet Pea",
    "pack": "40 stems for $199.99",
+   "packs": [
+    {
+     "price": 199.99,
+     "stems": 40.0
+    },
+    {
+     "price": 234.99,
+     "stems": 80.0
+    }
+   ],
    "perStem": 5.0,
    "perStemBulk": 2.94,
    "product": "White Sweet Pea Flowers",
@@ -27,6 +179,24 @@
    "bulkPack": "200 stems for $444.99",
    "flower": "Scabiosa",
    "pack": "50 stems for $164.99",
+   "packs": [
+    {
+     "price": 164.99,
+     "stems": 50.0
+    },
+    {
+     "price": 279.99,
+     "stems": 100.0
+    },
+    {
+     "price": 344.99,
+     "stems": 150.0
+    },
+    {
+     "price": 444.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.3,
    "perStemBulk": 2.22,
    "product": "White Scabiosa Flower",
@@ -37,6 +207,24 @@
    "bulkPack": "200 stems for $434.99",
    "flower": "Stock",
    "pack": "30 stems for $149.99",
+   "packs": [
+    {
+     "price": 149.99,
+     "stems": 30.0
+    },
+    {
+     "price": 159.99,
+     "stems": 50.0
+    },
+    {
+     "price": 234.99,
+     "stems": 100.0
+    },
+    {
+     "price": 434.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 5.0,
    "perStemBulk": 2.17,
    "product": "White Stock Flower",
@@ -47,16 +235,84 @@
    "bulkPack": "200 stems for $374.99",
    "flower": "Snapdragon",
    "pack": "50 stems for $144.99",
+   "packs": [
+    {
+     "price": 144.99,
+     "stems": 50.0
+    },
+    {
+     "price": 179.99,
+     "stems": 100.0
+    },
+    {
+     "price": 259.99,
+     "stems": 150.0
+    },
+    {
+     "price": 374.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 2.9,
    "perStemBulk": 1.87,
    "product": "Snapdragon White Flower",
    "url": "https://fiftyflowers.com/products/snapdragon-white-flower"
+  },
+  "2": {
+   "asOf": "2026-11-13",
+   "bulkPack": "144 stems for $609.99",
+   "flower": "Garden Rose / David Austin",
+   "pack": "24 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 24.0
+    },
+    {
+     "price": 219.99,
+     "stems": 36.0
+    },
+    {
+     "price": 259.99,
+     "stems": 48.0
+    },
+    {
+     "price": 299.99,
+     "stems": 60.0
+    },
+    {
+     "price": 334.99,
+     "stems": 72.0
+    },
+    {
+     "price": 609.99,
+     "stems": 144.0
+    }
+   ],
+   "perStem": 6.67,
+   "perStemBulk": 4.24,
+   "product": "White O'Hara Garden Rose",
+   "url": "https://fiftyflowers.com/products/white-ohara-garden-rose"
   },
   "20": {
    "asOf": "2026-11-13",
    "bulkPack": "90 stems for $519.99",
    "flower": "Delphinium / Larkspur",
    "pack": "30 stems for $234.99",
+   "packs": [
+    {
+     "price": 234.99,
+     "stems": 30.0
+    },
+    {
+     "price": 314.99,
+     "stems": 45.0
+    },
+    {
+     "price": 519.99,
+     "stems": 90.0
+    }
+   ],
    "perStem": 7.83,
    "perStemBulk": 5.78,
    "product": "White Delphinium Flowers",
@@ -67,6 +323,24 @@
    "bulkPack": "200 stems for $354.99",
    "flower": "Queen Anne's Lace / Ammi",
    "pack": "50 stems for $154.99",
+   "packs": [
+    {
+     "price": 154.99,
+     "stems": 50.0
+    },
+    {
+     "price": 224.99,
+     "stems": 100.0
+    },
+    {
+     "price": 289.99,
+     "stems": 150.0
+    },
+    {
+     "price": 354.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.1,
    "perStemBulk": 1.77,
    "product": "Queen Anne's Lace Filler Flower",
@@ -77,6 +351,32 @@
    "bulkPack": "300 stems for $444.99",
    "flower": "Solidago / Goldenrod",
    "pack": "20 stems for $84.99",
+   "packs": [
+    {
+     "price": 84.99,
+     "stems": 20.0
+    },
+    {
+     "price": 144.99,
+     "stems": 50.0
+    },
+    {
+     "price": 179.99,
+     "stems": 100.0
+    },
+    {
+     "price": 254.99,
+     "stems": 150.0
+    },
+    {
+     "price": 279.99,
+     "stems": 200.0
+    },
+    {
+     "price": 444.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 4.25,
    "perStemBulk": 1.48,
    "product": "Yellow Goldenrod Solidago Flowers",
@@ -87,6 +387,24 @@
    "bulkPack": "200 stems for $314.99",
    "flower": "Statice (sinuata)",
    "pack": "50 stems for $119.99",
+   "packs": [
+    {
+     "price": 119.99,
+     "stems": 50.0
+    },
+    {
+     "price": 169.99,
+     "stems": 100.0
+    },
+    {
+     "price": 209.99,
+     "stems": 150.0
+    },
+    {
+     "price": 314.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 2.4,
    "perStemBulk": 1.57,
    "product": "White Tissue Culture Statice Flower",
@@ -97,6 +415,20 @@
    "bulkPack": "200 stems for $344.99",
    "flower": "Hypericum (berries)",
    "pack": "50 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 50.0
+    },
+    {
+     "price": 234.99,
+     "stems": 100.0
+    },
+    {
+     "price": 344.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.2,
    "perStemBulk": 1.72,
    "product": "Creamy White Hypericum Berries",
@@ -107,6 +439,36 @@
    "bulkPack": "400 stems for $384.99",
    "flower": "Carnations (standard)",
    "pack": "50 stems for $114.99",
+   "packs": [
+    {
+     "price": 114.99,
+     "stems": 50.0
+    },
+    {
+     "price": 164.99,
+     "stems": 100.0
+    },
+    {
+     "price": 209.99,
+     "stems": 150.0
+    },
+    {
+     "price": 234.99,
+     "stems": 200.0
+    },
+    {
+     "price": 334.99,
+     "stems": 300.0
+    },
+    {
+     "price": 354.99,
+     "stems": 350.0
+    },
+    {
+     "price": 384.99,
+     "stems": 400.0
+    }
+   ],
    "perStem": 2.3,
    "perStemBulk": 0.96,
    "product": "White Carnation Flowers",
@@ -117,6 +479,20 @@
    "bulkPack": "300 stems for $289.99",
    "flower": "Mini / Spray Carnations",
    "pack": "80 stems for $124.99",
+   "packs": [
+    {
+     "price": 124.99,
+     "stems": 80.0
+    },
+    {
+     "price": 209.99,
+     "stems": 150.0
+    },
+    {
+     "price": 289.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 1.56,
    "perStemBulk": 0.97,
    "product": "White Mini Carnation Flowers",
@@ -127,6 +503,20 @@
    "bulkPack": "100 stems for $344.99",
    "flower": "Chrysanthemum \u2013 Football Mum",
    "pack": "30 stems for $144.99",
+   "packs": [
+    {
+     "price": 144.99,
+     "stems": 30.0
+    },
+    {
+     "price": 219.99,
+     "stems": 60.0
+    },
+    {
+     "price": 344.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 4.83,
    "perStemBulk": 3.45,
    "product": "White Football Mum Flower",
@@ -137,6 +527,24 @@
    "bulkPack": "200 stems for $464.99",
    "flower": "Spray Rose",
    "pack": "20 stems for $119.99",
+   "packs": [
+    {
+     "price": 119.99,
+     "stems": 20.0
+    },
+    {
+     "price": 159.99,
+     "stems": 50.0
+    },
+    {
+     "price": 259.99,
+     "stems": 100.0
+    },
+    {
+     "price": 464.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 6.0,
    "perStemBulk": 2.32,
    "product": "Floreana White Spray Roses",
@@ -147,16 +555,120 @@
    "bulkPack": "200 stems for $314.99",
    "flower": "Chrysanthemum \u2013 Spider / Decorative",
    "pack": "50 stems for $134.99",
+   "packs": [
+    {
+     "price": 134.99,
+     "stems": 50.0
+    },
+    {
+     "price": 179.99,
+     "stems": 100.0
+    },
+    {
+     "price": 259.99,
+     "stems": 150.0
+    },
+    {
+     "price": 314.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 2.7,
    "perStemBulk": 1.57,
    "product": "Anastasia White Spider Mum Flowers",
    "url": "https://fiftyflowers.com/products/anastasia-spider-white-flowers"
+  },
+  "32": {
+   "asOf": "2026-11-13",
+   "bulkPack": "100 stems for $324.99",
+   "flower": "Sunflower (standard)",
+   "pack": "25 stems for $134.99",
+   "packs": [
+    {
+     "price": 134.99,
+     "stems": 25.0
+    },
+    {
+     "price": 194.99,
+     "stems": 50.0
+    },
+    {
+     "price": 324.99,
+     "stems": 100.0
+    }
+   ],
+   "perStem": 5.4,
+   "perStemBulk": 3.25,
+   "product": "Sunflowers",
+   "url": "https://fiftyflowers.com/products/sunflowers"
+  },
+  "33": {
+   "asOf": "2026-11-13",
+   "bulkPack": "200 stems for $374.99",
+   "flower": "Gerbera Daisy",
+   "pack": "20 stems for $114.99",
+   "packs": [
+    {
+     "price": 114.99,
+     "stems": 20.0
+    },
+    {
+     "price": 124.99,
+     "stems": 40.0
+    },
+    {
+     "price": 164.99,
+     "stems": 60.0
+    },
+    {
+     "price": 179.99,
+     "stems": 80.0
+    },
+    {
+     "price": 209.99,
+     "stems": 100.0
+    },
+    {
+     "price": 289.99,
+     "stems": 150.0
+    },
+    {
+     "price": 374.99,
+     "stems": 200.0
+    }
+   ],
+   "perStem": 5.75,
+   "perStemBulk": 1.87,
+   "product": "White Gerbera Daisy Flower",
+   "url": "https://fiftyflowers.com/products/white-gerber-daisy-flower"
   },
   "34": {
    "asOf": "2026-11-13",
    "bulkPack": "240 stems for $349.99",
    "flower": "Alstroemeria",
    "pack": "20 stems for $104.99",
+   "packs": [
+    {
+     "price": 104.99,
+     "stems": 20.0
+    },
+    {
+     "price": 124.99,
+     "stems": 50.0
+    },
+    {
+     "price": 149.99,
+     "stems": 80.0
+    },
+    {
+     "price": 209.99,
+     "stems": 120.0
+    },
+    {
+     "price": 349.99,
+     "stems": 240.0
+    }
+   ],
    "perStem": 5.25,
    "perStemBulk": 1.46,
    "product": "White Alstroemeria Fresh Flowers",
@@ -167,6 +679,28 @@
    "bulkPack": "300 stems for $579.99",
    "flower": "Freesia",
    "pack": "50 stems for $164.99",
+   "packs": [
+    {
+     "price": 164.99,
+     "stems": 50.0
+    },
+    {
+     "price": 254.99,
+     "stems": 100.0
+    },
+    {
+     "price": 344.99,
+     "stems": 150.0
+    },
+    {
+     "price": 434.99,
+     "stems": 200.0
+    },
+    {
+     "price": 579.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 3.3,
    "perStemBulk": 1.93,
    "product": "White Freesia Flower",
@@ -177,6 +711,24 @@
    "bulkPack": "200 stems for $374.99",
    "flower": "Iris",
    "pack": "50 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 50.0
+    },
+    {
+     "price": 224.99,
+     "stems": 100.0
+    },
+    {
+     "price": 299.99,
+     "stems": 150.0
+    },
+    {
+     "price": 374.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.2,
    "perStemBulk": 1.87,
    "product": "Pure White with Yellow Iris Flowers",
@@ -187,6 +739,20 @@
    "bulkPack": "60 stems for $394.99",
    "flower": "Lilac",
    "pack": "20 stems for $199.99",
+   "packs": [
+    {
+     "price": 199.99,
+     "stems": 20.0
+    },
+    {
+     "price": 314.99,
+     "stems": 40.0
+    },
+    {
+     "price": 394.99,
+     "stems": 60.0
+    }
+   ],
    "perStem": 10.0,
    "perStemBulk": 6.58,
    "product": "White Lilac Flower",
@@ -197,6 +763,12 @@
    "bulkPack": "20 stems for $279.99",
    "flower": "Lily of the Valley",
    "pack": "20 stems for $279.99",
+   "packs": [
+    {
+     "price": 279.99,
+     "stems": 20.0
+    }
+   ],
    "perStem": 14.0,
    "perStemBulk": 14.0,
    "product": "Lily of the Valley Flower",
@@ -207,6 +779,12 @@
    "bulkPack": "40 stems for $259.99",
    "flower": "Hellebore",
    "pack": "40 stems for $259.99",
+   "packs": [
+    {
+     "price": 259.99,
+     "stems": 40.0
+    }
+   ],
    "perStem": 6.5,
    "perStemBulk": 6.5,
    "product": "Hues of Pink Designer Hellebore Flowers",
@@ -217,6 +795,28 @@
    "bulkPack": "100 stems for $974.99",
    "flower": "Peony",
    "pack": "20 stems for $344.99",
+   "packs": [
+    {
+     "price": 344.99,
+     "stems": 20.0
+    },
+    {
+     "price": 439.99,
+     "stems": 40.0
+    },
+    {
+     "price": 644.99,
+     "stems": 60.0
+    },
+    {
+     "price": 879.99,
+     "stems": 80.0
+    },
+    {
+     "price": 974.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 17.25,
    "perStemBulk": 9.75,
    "product": "Duchess White Peonies",
@@ -227,6 +827,16 @@
    "bulkPack": "30 stems for $449.99",
    "flower": "Amaryllis",
    "pack": "15 stems for $269.99",
+   "packs": [
+    {
+     "price": 269.99,
+     "stems": 15.0
+    },
+    {
+     "price": 449.99,
+     "stems": 30.0
+    }
+   ],
    "perStem": 18.0,
    "perStemBulk": 15.0,
    "product": "White Amaryllis Flowers",
@@ -237,16 +847,60 @@
    "bulkPack": "20 stems for $209.99",
    "flower": "Anthurium",
    "pack": "20 stems for $209.99",
+   "packs": [
+    {
+     "price": 209.99,
+     "stems": 20.0
+    }
+   ],
    "perStem": 10.5,
    "perStemBulk": 10.5,
    "product": "Anthurium Seashell White Tropical Flower",
    "url": "https://fiftyflowers.com/products/seashell-white-tropical-anthurium-flower"
+  },
+  "42": {
+   "asOf": "2026-11-13",
+   "bulkPack": "80 stems for $344.99",
+   "flower": "Protea \u2013 Pincushion",
+   "pack": "20 stems for $144.99",
+   "packs": [
+    {
+     "price": 144.99,
+     "stems": 20.0
+    },
+    {
+     "price": 209.99,
+     "stems": 40.0
+    },
+    {
+     "price": 344.99,
+     "stems": 80.0
+    }
+   ],
+   "perStem": 7.25,
+   "perStemBulk": 4.31,
+   "product": "Orange Pin Cushion Protea Flower",
+   "url": "https://fiftyflowers.com/products/orange-pin-cushion-flower"
   },
   "45": {
    "asOf": "2026-11-13",
    "bulkPack": "200 stems for $344.99",
    "flower": "Celosia \u2013 Plume",
    "pack": "50 stems for $164.99",
+   "packs": [
+    {
+     "price": 164.99,
+     "stems": 50.0
+    },
+    {
+     "price": 224.99,
+     "stems": 100.0
+    },
+    {
+     "price": 344.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.3,
    "perStemBulk": 1.72,
    "product": "Golden Yellow Feather Celosia Flowers",
@@ -257,6 +911,24 @@
    "bulkPack": "100 stems for $359.99",
    "flower": "Amaranthus (cascading)",
    "pack": "25 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 25.0
+    },
+    {
+     "price": 229.99,
+     "stems": 50.0
+    },
+    {
+     "price": 289.99,
+     "stems": 75.0
+    },
+    {
+     "price": 359.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 6.4,
    "perStemBulk": 3.6,
    "product": "Green Hanging Amaranthus Bulk Fall Greens",
@@ -267,6 +939,24 @@
    "bulkPack": "200 stems for $1049.99",
    "flower": "Astilbe",
    "pack": "50 stems for $299.99",
+   "packs": [
+    {
+     "price": 299.99,
+     "stems": 50.0
+    },
+    {
+     "price": 564.99,
+     "stems": 100.0
+    },
+    {
+     "price": 809.99,
+     "stems": 150.0
+    },
+    {
+     "price": 1049.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 6.0,
    "perStemBulk": 5.25,
    "product": "White Astilbe Flower November to April",
@@ -277,6 +967,24 @@
    "bulkPack": "200 stems for $444.99",
    "flower": "Veronica / Speedwell",
    "pack": "50 stems for $269.99",
+   "packs": [
+    {
+     "price": 269.99,
+     "stems": 50.0
+    },
+    {
+     "price": 334.99,
+     "stems": 100.0
+    },
+    {
+     "price": 399.99,
+     "stems": 150.0
+    },
+    {
+     "price": 444.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 5.4,
    "perStemBulk": 2.22,
    "product": "White Veronica Flower",
@@ -287,6 +995,32 @@
    "bulkPack": "300 stems for $374.99",
    "flower": "Craspedia (Billy Buttons)",
    "pack": "30 stems for $114.99",
+   "packs": [
+    {
+     "price": 114.99,
+     "stems": 30.0
+    },
+    {
+     "price": 134.99,
+     "stems": 50.0
+    },
+    {
+     "price": 174.99,
+     "stems": 100.0
+    },
+    {
+     "price": 219.99,
+     "stems": 150.0
+    },
+    {
+     "price": 259.99,
+     "stems": 200.0
+    },
+    {
+     "price": 374.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 3.83,
    "perStemBulk": 1.25,
    "product": "Yellow Craspedia Billy Balls",
@@ -297,6 +1031,20 @@
    "bulkPack": "40 stems for $194.99",
    "flower": "Hydrangea (full mophead)",
    "pack": "10 stems for $89.99",
+   "packs": [
+    {
+     "price": 89.99,
+     "stems": 10.0
+    },
+    {
+     "price": 154.99,
+     "stems": 30.0
+    },
+    {
+     "price": 194.99,
+     "stems": 40.0
+    }
+   ],
    "perStem": 9.0,
    "perStemBulk": 4.87,
    "product": "White Hydrangea Flower",
@@ -307,6 +1055,28 @@
    "bulkPack": "300 stems for $444.99",
    "flower": "Dusty Miller",
    "pack": "50 stems for $144.99",
+   "packs": [
+    {
+     "price": 144.99,
+     "stems": 50.0
+    },
+    {
+     "price": 209.99,
+     "stems": 100.0
+    },
+    {
+     "price": 269.99,
+     "stems": 150.0
+    },
+    {
+     "price": 299.99,
+     "stems": 200.0
+    },
+    {
+     "price": 444.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 2.9,
    "perStemBulk": 1.48,
    "product": "Dusty Miller Greens",
@@ -317,16 +1087,72 @@
    "bulkPack": "300 stems for $644.99",
    "flower": "Ranunculus",
    "pack": "20 stems for $104.99",
+   "packs": [
+    {
+     "price": 104.99,
+     "stems": 20.0
+    },
+    {
+     "price": 159.99,
+     "stems": 50.0
+    },
+    {
+     "price": 274.99,
+     "stems": 100.0
+    },
+    {
+     "price": 359.99,
+     "stems": 150.0
+    },
+    {
+     "price": 459.99,
+     "stems": 200.0
+    },
+    {
+     "price": 644.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 5.25,
    "perStemBulk": 2.15,
    "product": "White Ranunculus Fresh Cut Flower",
    "url": "https://fiftyflowers.com/products/white-ranunculus-fresh-cut-flower"
+  },
+  "66": {
+   "asOf": "2026-11-13",
+   "bulkPack": "60 stems for $349.99",
+   "flower": "Monstera / Tropical Leaf",
+   "pack": "30 stems for $209.99",
+   "packs": [
+    {
+     "price": 209.99,
+     "stems": 30.0
+    },
+    {
+     "price": 349.99,
+     "stems": 60.0
+    }
+   ],
+   "perStem": 7.0,
+   "perStemBulk": 5.83,
+   "product": "Medium Monstera Leaves Tropical Greenery",
+   "url": "https://fiftyflowers.com/products/monstera-leaves-tropical-greenery-medium"
   },
   "68": {
    "asOf": "2026-11-13",
    "bulkPack": "10 stems for $299.99",
    "flower": "Smilax / Vine",
    "pack": "5 stems for $209.99",
+   "packs": [
+    {
+     "price": 209.99,
+     "stems": 5.0
+    },
+    {
+     "price": 299.99,
+     "stems": 10.0
+    }
+   ],
    "perStem": 42.0,
    "perStemBulk": 30.0,
    "product": "String Smilax Greenery Wedding Vine",
@@ -337,6 +1163,28 @@
    "bulkPack": "300 stems for $734.99",
    "flower": "Anemone",
    "pack": "50 stems for $219.99",
+   "packs": [
+    {
+     "price": 219.99,
+     "stems": 50.0
+    },
+    {
+     "price": 379.99,
+     "stems": 100.0
+    },
+    {
+     "price": 504.99,
+     "stems": 150.0
+    },
+    {
+     "price": 654.99,
+     "stems": 200.0
+    },
+    {
+     "price": 734.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 4.4,
    "perStemBulk": 2.45,
    "product": "White with Dark Centers Fresh Cut Designer Anemones",
@@ -347,6 +1195,32 @@
    "bulkPack": "175 stems for $834.99",
    "flower": "Dahlia (medium\u2013large)",
    "pack": "15 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 15.0
+    },
+    {
+     "price": 204.99,
+     "stems": 25.0
+    },
+    {
+     "price": 309.99,
+     "stems": 50.0
+    },
+    {
+     "price": 539.99,
+     "stems": 95.0
+    },
+    {
+     "price": 749.99,
+     "stems": 150.0
+    },
+    {
+     "price": 834.99,
+     "stems": 175.0
+    }
+   ],
    "perStem": 10.67,
    "perStemBulk": 4.77,
    "product": "White Dahlia Flower",
@@ -357,6 +1231,24 @@
    "bulkPack": "70 stems for $469.99",
    "flower": "Dinner-plate Dahlia",
    "pack": "20 stems for $199.99",
+   "packs": [
+    {
+     "price": 199.99,
+     "stems": 20.0
+    },
+    {
+     "price": 244.99,
+     "stems": 30.0
+    },
+    {
+     "price": 274.99,
+     "stems": 35.0
+    },
+    {
+     "price": 469.99,
+     "stems": 70.0
+    }
+   ],
    "perStem": 10.0,
    "perStemBulk": 6.71,
    "product": "Bridal White Dinner Plate Dahlia Flower",
@@ -367,6 +1259,20 @@
    "bulkPack": "100 stems for $444.99",
    "flower": "Lily \u2013 Oriental / Stargazer",
    "pack": "20 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 20.0
+    },
+    {
+     "price": 269.99,
+     "stems": 50.0
+    },
+    {
+     "price": 444.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 8.0,
    "perStemBulk": 4.45,
    "product": "White Oriental Lilies",
@@ -377,16 +1283,68 @@
    "bulkPack": "200 stems for $324.99",
    "flower": "Limonium (Misty)",
    "pack": "20 stems for $79.99",
+   "packs": [
+    {
+     "price": 79.99,
+     "stems": 20.0
+    },
+    {
+     "price": 119.99,
+     "stems": 50.0
+    },
+    {
+     "price": 169.99,
+     "stems": 100.0
+    },
+    {
+     "price": 234.99,
+     "stems": 150.0
+    },
+    {
+     "price": 324.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 4.0,
    "perStemBulk": 1.62,
    "product": "White Limonium Flowers",
    "url": "https://fiftyflowers.com/products/white-limonium-flowers"
+  },
+  "9004": {
+   "asOf": "2026-11-13",
+   "bulkPack": "10 stems for $374.99",
+   "flower": "Protea \u2013 King",
+   "pack": "10 stems for $374.99",
+   "packs": [
+    {
+     "price": 374.99,
+     "stems": 10.0
+    }
+   ],
+   "perStem": 37.5,
+   "perStemBulk": 37.5,
+   "product": "King Protea Flower",
+   "url": "https://fiftyflowers.com/products/king-protea-flower"
   },
   "9005": {
    "asOf": "2026-11-13",
    "bulkPack": "100 stems for $779.99",
    "flower": "Celosia \u2013 Cockscomb",
    "pack": "25 stems for $254.99",
+   "packs": [
+    {
+     "price": 254.99,
+     "stems": 25.0
+    },
+    {
+     "price": 414.99,
+     "stems": 50.0
+    },
+    {
+     "price": 779.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 10.2,
    "perStemBulk": 7.8,
    "product": "Light Pink Cockscomb Celosia Flowers",
@@ -397,6 +1355,24 @@
    "bulkPack": "100 stems for $769.99",
    "flower": "Viburnum (Snowball)",
    "pack": "25 stems for $269.99",
+   "packs": [
+    {
+     "price": 269.99,
+     "stems": 25.0
+    },
+    {
+     "price": 444.99,
+     "stems": 50.0
+    },
+    {
+     "price": 599.99,
+     "stems": 75.0
+    },
+    {
+     "price": 769.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 10.8,
    "perStemBulk": 7.7,
    "product": "Green Viburnum Flowers",
@@ -407,6 +1383,20 @@
    "bulkPack": "200 stems for $289.99",
    "flower": "Thistle (Eryngium)",
    "pack": "50 stems for $144.99",
+   "packs": [
+    {
+     "price": 144.99,
+     "stems": 50.0
+    },
+    {
+     "price": 199.99,
+     "stems": 100.0
+    },
+    {
+     "price": 289.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 2.9,
    "perStemBulk": 1.45,
    "product": "Blue Thistle Flower",
@@ -417,6 +1407,20 @@
    "bulkPack": "120 stems for $519.99",
    "flower": "Astrantia",
    "pack": "40 stems for $269.99",
+   "packs": [
+    {
+     "price": 269.99,
+     "stems": 40.0
+    },
+    {
+     "price": 399.99,
+     "stems": 80.0
+    },
+    {
+     "price": 519.99,
+     "stems": 120.0
+    }
+   ],
    "perStem": 6.75,
    "perStemBulk": 4.33,
    "product": "Ivory White Wedding Astrantia Flowers",
@@ -427,6 +1431,24 @@
    "bulkPack": "200 stems for $334.99",
    "flower": "Feverfew / Chamomile",
    "pack": "50 stems for $164.99",
+   "packs": [
+    {
+     "price": 164.99,
+     "stems": 50.0
+    },
+    {
+     "price": 239.99,
+     "stems": 100.0
+    },
+    {
+     "price": 289.99,
+     "stems": 150.0
+    },
+    {
+     "price": 334.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.3,
    "perStemBulk": 1.67,
    "product": "Feverfew Daisy Wholesale Cut Flower",
@@ -437,6 +1459,24 @@
    "bulkPack": "200 stems for $409.99",
    "flower": "Yarrow (Achillea)",
    "pack": "50 stems for $159.99",
+   "packs": [
+    {
+     "price": 159.99,
+     "stems": 50.0
+    },
+    {
+     "price": 229.99,
+     "stems": 100.0
+    },
+    {
+     "price": 324.99,
+     "stems": 150.0
+    },
+    {
+     "price": 409.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.2,
    "perStemBulk": 2.05,
    "product": "Ivory White Cottage Yarrow Flowers",
@@ -447,6 +1487,24 @@
    "bulkPack": "200 stems for $344.99",
    "flower": "Nigella",
    "pack": "50 stems for $154.99",
+   "packs": [
+    {
+     "price": 154.99,
+     "stems": 50.0
+    },
+    {
+     "price": 224.99,
+     "stems": 100.0
+    },
+    {
+     "price": 299.99,
+     "stems": 150.0
+    },
+    {
+     "price": 344.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 3.1,
    "perStemBulk": 1.72,
    "product": "White Love in a Mist Nigella Flowers",
@@ -457,6 +1515,28 @@
    "bulkPack": "200 stems for $709.99",
    "flower": "Butterfly Ranunculus",
    "pack": "20 stems for $154.99",
+   "packs": [
+    {
+     "price": 154.99,
+     "stems": 20.0
+    },
+    {
+     "price": 239.99,
+     "stems": 50.0
+    },
+    {
+     "price": 399.99,
+     "stems": 100.0
+    },
+    {
+     "price": 569.99,
+     "stems": 150.0
+    },
+    {
+     "price": 709.99,
+     "stems": 200.0
+    }
+   ],
    "perStem": 7.75,
    "perStemBulk": 3.55,
    "product": "Creamy White Butterfly Ranunculus Flower",
@@ -467,6 +1547,32 @@
    "bulkPack": "175 stems for $854.99",
    "flower": "Dahlia \u2013 Ball",
    "pack": "15 stems for $169.99",
+   "packs": [
+    {
+     "price": 169.99,
+     "stems": 15.0
+    },
+    {
+     "price": 219.99,
+     "stems": 25.0
+    },
+    {
+     "price": 324.99,
+     "stems": 50.0
+    },
+    {
+     "price": 559.99,
+     "stems": 95.0
+    },
+    {
+     "price": 759.99,
+     "stems": 150.0
+    },
+    {
+     "price": 854.99,
+     "stems": 175.0
+    }
+   ],
    "perStem": 11.33,
    "perStemBulk": 4.89,
    "product": "Ball White Dahlia Flower",
@@ -477,6 +1583,28 @@
    "bulkPack": "300 stems for $574.99",
    "flower": "Icelandic Poppy",
    "pack": "50 stems for $179.99",
+   "packs": [
+    {
+     "price": 179.99,
+     "stems": 50.0
+    },
+    {
+     "price": 259.99,
+     "stems": 100.0
+    },
+    {
+     "price": 344.99,
+     "stems": 150.0
+    },
+    {
+     "price": 434.99,
+     "stems": 200.0
+    },
+    {
+     "price": 574.99,
+     "stems": 300.0
+    }
+   ],
    "perStem": 3.6,
    "perStemBulk": 1.92,
    "product": "Assorted Poppy Pack",
@@ -487,6 +1615,20 @@
    "bulkPack": "240 stems for $374.99",
    "flower": "Leucadendron",
    "pack": "50 stems for $154.99",
+   "packs": [
+    {
+     "price": 154.99,
+     "stems": 50.0
+    },
+    {
+     "price": 234.99,
+     "stems": 100.0
+    },
+    {
+     "price": 374.99,
+     "stems": 240.0
+    }
+   ],
    "perStem": 3.1,
    "perStemBulk": 1.56,
    "product": "Safari Sunset Leucadendron",
@@ -497,6 +1639,24 @@
    "bulkPack": "100 stems for $404.99",
    "flower": "Pampas Grass (dried)",
    "pack": "25 stems for $199.99",
+   "packs": [
+    {
+     "price": 199.99,
+     "stems": 25.0
+    },
+    {
+     "price": 259.99,
+     "stems": 50.0
+    },
+    {
+     "price": 329.99,
+     "stems": 75.0
+    },
+    {
+     "price": 404.99,
+     "stems": 100.0
+    }
+   ],
    "perStem": 8.0,
    "perStemBulk": 4.05,
    "product": "Natural Boho Dried Pampas Grass",
