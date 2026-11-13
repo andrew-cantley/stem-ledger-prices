@@ -656,40 +656,105 @@
  },
  "pins": {
   "Flower Moxie": {
-   "22": "white-wax-flower-1",
-   "52": "seeded-eucalyptus-greenery-1",
-   "9016": "gunni-eucalyptus-greenery-1",
-   "56": "everyday-greenery-mixed-box-small",
-   "9021": "pampas-grass",
-   "31": "dusty-blue-cushion-pom-flower",
-   "60": "silver-queen-pittosporum-greenery",
-   "51": "silver-dollar-eucalyptus-greenery",
-   "54": "baby-eucalyptus-greenery",
-   "9003": "lavender-limonium-flower"
+   "22": {
+    "handle": "white-wax-flower-1",
+    "stemsPerBunch": 9,
+    "note": "page: 8-10 stems per bunch"
+   },
+   "52": {
+    "handle": "seeded-eucalyptus-greenery-1",
+    "stemsPerBunch": 6.5,
+    "note": "page: 5-8 main stems"
+   },
+   "9016": {
+    "handle": "gunni-eucalyptus-greenery-1",
+    "stemsPerBunch": 6.5,
+    "note": "page: 5-8 main stems"
+   },
+   "9021": {
+    "handle": "pampas-grass"
+   },
+   "31": {
+    "handle": "dusty-blue-cushion-pom-flower",
+    "stemsPerBunch": 7,
+    "note": "page: 6-8 stems per bunch; cushion pom, dusty blue"
+   },
+   "60": {
+    "handle": "silver-queen-pittosporum-greenery",
+    "stemsPerBunch": 6.5,
+    "note": "page: 5-8 main stems"
+   },
+   "51": {
+    "handle": "silver-dollar-eucalyptus-greenery",
+    "stemsPerBunch": 10,
+    "note": "page: averages 10 main stems per bunch"
+   },
+   "54": {
+    "handle": "baby-eucalyptus-greenery",
+    "stemsPerBunch": 10,
+    "note": "page: averages 10 main stems per bunch"
+   }
   },
   "Flower Explosion": {
-   "10": "white-calla-lilies",
-   "25": "white-statice",
-   "29": "lavender-football-mum",
-   "50": "dusty-miller-flat-leaf"
+   "10": {
+    "handle": "white-calla-lilies"
+   },
+   "25": {
+    "handle": "white-statice",
+    "stemsPerBunch": 10,
+    "note": "page: bunches of 10 stems"
+   },
+   "29": {
+    "handle": "lavender-football-mum"
+   }
   },
   "Bloomingmore": {
-   "10": "calla-lilly",
-   "55": "italian-ruscus-25-bunches",
-   "56": "ruscus-natural-green",
-   "9021": "pampas-dry-standard",
-   "11": "lily-asiatic-white",
-   "34": "alstroemeria-white",
-   "33": "white-gerberas",
-   "20": "delphinium-sky-waltz",
-   "7": "anemones-levante-white",
-   "8": "dahlia-white-col",
-   "6": "ranunculus-white",
-   "18": "stock-reddish-140-stems",
-   "9010": "yarrow-cottage-light-pink",
-   "42": "pin-cushion-protea-yellow-30-stems",
-   "48": "veronica-skyler-white"
+   "10": {
+    "handle": "calla-lilly"
+   },
+   "55": {
+    "handle": "italian-ruscus-25-bunches",
+    "bare": "bunches",
+    "stemsPerBunch": 5,
+    "note": "page: sizes are bunches, about 5 stems each"
+   },
+   "56": {
+    "handle": "ruscus-natural-green"
+   },
+   "9021": {
+    "handle": "pampas-dry-standard"
+   },
+   "11": {
+    "handle": "lily-asiatic-white"
+   },
+   "34": {
+    "handle": "alstroemeria-white"
+   },
+   "33": {
+    "handle": "white-gerberas"
+   },
+   "20": {
+    "handle": "delphinium-sky-waltz"
+   },
+   "7": {
+    "handle": "anemones-levante-white"
+   },
+   "8": {
+    "handle": "dahlia-white-col"
+   },
+   "6": {
+    "handle": "ranunculus-white"
+   },
+   "18": {
+    "handle": "stock-reddish-140-stems"
+   },
+   "42": {
+    "handle": "pin-cushion-protea-yellow-30-stems"
+   },
+   "48": {
+    "handle": "veronica-skyler-white"
+   }
   }
  },
- "_pins_note": "Product pages Andrew supplied on Nov. 13, 2026. A pin wins over the automatic name match. Left out on purpose: the two 'dinner-plate dahlia' links (ordinary dahlias, not dinner-plate) and Flower Moxie's orange mini gerbera (a mini, not a standard gerbera)."
+ "_pins_note": "Product pages Andrew supplied on Nov. 13, 2026. A pin wins over the automatic name match. Left out on purpose: the two 'dinner-plate dahlia' links (ordinary dahlias), Flower Moxie's orange mini gerbera (a mini), Flower Moxie's greenery mixed box (three different greens, no stem count), Flower Moxie lavender limonium (page not found), Flower Explosion dusty miller and Bloomingmore yarrow (no stems per bunch on the page)."
 }

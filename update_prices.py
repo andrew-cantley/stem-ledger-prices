@@ -126,7 +126,24 @@ def stems_per_bunch(product):
     return _avg(m.group(1), m.group(2)) if m else None
 
 
-def options_for(product, per_bunch_hint=None, per_piece=None, unit=None):
+def bare_count(product, variant, bare=None):
+    """Some stores label a size with just a number ("50"). The option's own name says what it
+    counts ("Stems: 50"); a pin can also say it. Returns (stems, bunches)."""
+    names = [str(o.get("name", "") if isinstance(o, dict) else o).lower() for o in product.get("options", [])]
+    for i, key in enumerate(("option1", "option2", "option3")):
+        value = str(variant.get(key) or "").strip()
+        if not re.fullmatch(r"\d+(?:\.\d+)?", value):
+            continue
+        name = names[i] if i < len(names) else ""
+        kind = bare or ("stems" if "stem" in name else "bunches" if "bunch" in name else None)
+        if kind == "stems":
+            return float(value), None
+        if kind == "bunches":
+            return None, float(value)
+    return None, None
+
+
+def options_for(product, per_bunch_hint=None, per_piece=None, unit=None, bare=None):
     # stems per bunch: from the page if it says, otherwise the figure noted in products.json
     per_bunch = stems_per_bunch(product) or per_bunch_hint
     best = {}
@@ -135,7 +152,9 @@ def options_for(product, per_bunch_hint=None, per_piece=None, unit=None):
         stems = stems_in(label)
         if not stems:  # sold by the bunch: bunches x stems per bunch
             bunches = bunches_in(label)
-            if bunches and per_bunch:
+            if not bunches:
+                stems, bunches = bare_count(product, v, bare)
+            if not stems and bunches and per_bunch:
                 stems = bunches * per_bunch
         price = to_dollars(v.get("price"))
         if stems and price and price > 0:
@@ -254,12 +273,13 @@ def read_suppliers(today, catalogs):
             catalogs[sup["name"]] = {"site": sup["site"], "products": compact_catalog(catalog)}
             found = match_supplier(catalog, config["flowers"])
             # product pages chosen by hand win over the name match
-            for fid, handle in config.get("pins", {}).get(sup["name"], {}).items():
+            for fid, pin in config.get("pins", {}).get(sup["name"], {}).items():
+                handle = pin["handle"]
                 product = next((p for p in catalog if p.get("handle") == handle), None)
                 try:
                     if product is None:
                         product = load_product("%s/products/%s" % (sup["site"].rstrip("/"), handle))
-                    options = options_for(product)
+                    options = options_for(product, pin.get("stemsPerBunch"), bare=pin.get("bare"))
                     if not options:
                         labels = [" ".join(str(x) for x in [v.get("title"), v.get("option1")] if x) + " $" + str(v.get("price")) for v in product.get("variants", [])][:4]
                         raise ValueError("no stem count on the listing | %s" % labels)
