@@ -45,17 +45,34 @@ def load_collection_products(url):
     return fetch_json(base + "/products.json?limit=250").get("products", [])
 
 
-def pick_from_collection(url, per_bunch_hint=None, prefer=None):
-    """Chooses one product to stand for the flower: the white or ivory one when there is one
-    (colors usually cost the same), otherwise the first that has a readable pack and price."""
+NOT_A_PLAIN_BUNCH = re.compile(r"kit|garland|centerpiece|mix|collection|combo|dried|tinted|dyed|airbrush|painted|preserved|wreath|bouquet|diy|box|petal|assort|pack\b", re.I)
+
+
+def pick_from_collection(url, per_bunch_hint=None, prefer=None, match=None):
+    """Chooses one product to stand for the flower: a plain bunch (no kits, garlands or mixes)
+    whose name contains the flower, the white or ivory one when there is one (colors usually
+    cost the same), otherwise the first that has a readable pack and price."""
     words = [w.lower() for w in (prefer or ["white", "ivory", "cream"])]
     products = load_collection_products(url)
-    ranked = sorted(products, key=lambda p: 0 if any(w in str(p.get("title", "")).lower() for w in words) else 1)
+    plain = [p for p in products if not NOT_A_PLAIN_BUNCH.search(str(p.get("title", "")))
+             and (not match or any(m.lower() in str(p.get("title", "")).lower() for m in match))]
+    ranked = sorted(plain, key=lambda p: 0 if any(w in str(p.get("title", "")).lower() for w in words) else 1)
     for product in ranked:
         if options_for(product, per_bunch_hint):
             return product
     titles = [str(p.get("title")) + " :: " + " / ".join(str(v.get("title")) for v in p.get("variants", [])[:3]) for p in products[:4]]
-    raise ValueError("no product in the collection has a readable pack | %d products | %s" % (len(products), titles))
+    raise ValueError("no plain product in the collection has a readable pack | %d products | %s" % (len(products), titles))
+
+
+def list_collections(config):
+    """python3 update_prices.py --list : shows what each collection address holds."""
+    for flower_id, item in config["products"].items():
+        if not is_collection(item["url"]):
+            continue
+        print("\n== %s %s" % (flower_id, item.get("flower")))
+        for p in load_collection_products(item["url"]):
+            print("   %s | %s | %s" % (p.get("handle"), p.get("title"), " / ".join("%s $%s" % (v.get("title"), v.get("price")) for v in p.get("variants", [])[:4])))
+        time.sleep(PAUSE_SECONDS)
 
 
 def is_collection(url):
@@ -136,12 +153,16 @@ def main():
     except (OSError, ValueError):
         previous = {}
 
+    if "--list" in sys.argv:
+        list_collections(config)
+        return 0
+
     today = datetime.date.today().isoformat()
     prices, failed = {}, []
     for flower_id, item in config["products"].items():
         try:
             if is_collection(item["url"]):
-                product = pick_from_collection(item["url"], item.get("stemsPerBunch"), item.get("prefer"))
+                product = pick_from_collection(item["url"], item.get("stemsPerBunch"), item.get("prefer"), item.get("match"))
             else:
                 product = load_product(item["url"])
             options = options_for(product, item.get("stemsPerBunch"))

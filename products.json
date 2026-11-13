@@ -289,71 +289,109 @@
   },
   "16": {
    "flower": "Lisianthus",
-   "url": "https://fiftyflowers.com/collections/lisianthus"
+   "url": "https://fiftyflowers.com/collections/lisianthus",
+   "match": [
+    "lisianthus"
+   ],
+   "stemsPerBunch": 10
   },
   "21": {
    "flower": "Baby's Breath (Gypsophila)",
-   "url": "https://fiftyflowers.com/collections/babys-breath-flower"
+   "url": "https://fiftyflowers.com/collections/babys-breath-flower",
+   "match": [
+    "baby"
+   ],
+   "stemsPerBunch": 7
   },
   "22": {
    "flower": "Waxflower",
-   "url": "https://fiftyflowers.com/collections/wax-flower"
+   "url": "https://fiftyflowers.com/collections/wax-flower",
+   "match": [
+    "wax"
+   ]
   },
   "31": {
    "flower": "Button Mum / Pompon",
-   "url": "https://fiftyflowers.com/collections/daisies-poms"
+   "url": "https://fiftyflowers.com/collections/daisies-poms",
+   "match": [
+    "button",
+    "pom"
+   ],
+   "stemsPerBunch": 7.5
   },
   "44": {
    "flower": "Cosmos",
-   "url": "https://fiftyflowers.com/collections/cosmos"
+   "url": "https://fiftyflowers.com/collections/cosmos",
+   "match": [
+    "cosmos"
+   ]
   },
   "9022": {
    "flower": "Bunny Tail (dried)",
-   "url": "https://fiftyflowers.com/products/rust-brown-dried-bunny-tail-grass"
+   "url": "https://fiftyflowers.com/products/rust-brown-dried-bunny-tail-grass",
+   "stemsPerBunch": 32.5
   },
   "51": {
    "flower": "Eucalyptus – Silver Dollar",
-   "url": "https://fiftyflowers.com/collections/silver-dollar-eucalyptus"
+   "url": "https://fiftyflowers.com/collections/silver-dollar-eucalyptus",
+   "match": [
+    "silver dollar"
+   ]
   },
   "52": {
    "flower": "Eucalyptus – Seeded",
-   "url": "https://fiftyflowers.com/products/Seeded-Eucalyptus-Greenery"
+   "url": "https://fiftyflowers.com/products/Seeded-Eucalyptus-Greenery",
+   "stemsPerBunch": 6.5
   },
   "53": {
    "flower": "Eucalyptus – Willow / Nicholii",
-   "url": "https://fiftyflowers.com/collections/greenery/products/choose-your-own-eucalyptus-greenery-premium-pack"
+   "url": "https://fiftyflowers.com/collections/greenery/products/choose-your-own-eucalyptus-greenery-premium-pack",
+   "stemsPerBunch": 6.5
   },
   "54": {
    "flower": "Eucalyptus – Baby Blue",
-   "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery"
+   "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery",
+   "stemsPerBunch": 6.5
   },
   "9016": {
    "flower": "Eucalyptus – Gunni",
-   "url": "https://fiftyflowers.com/products/gunnii-eucalyptus-greens"
+   "url": "https://fiftyflowers.com/products/gunnii-eucalyptus-greens",
+   "stemsPerBunch": 6.5
   },
   "55": {
    "flower": "Italian Ruscus",
-   "url": "https://fiftyflowers.com/collections/italian-ruscus"
+   "url": "https://fiftyflowers.com/collections/italian-ruscus",
+   "match": [
+    "ruscus"
+   ],
+   "prefer": [
+    "italian"
+   ]
   },
   "57": {
    "flower": "Leatherleaf Fern",
-   "url": "https://fiftyflowers.com/products/wedding-greenery-mix"
+   "url": "https://fiftyflowers.com/products/wedding-greenery-mix",
+   "stemsPerBunch": 6.5
   },
   "58": {
    "flower": "Salal / Lemon Leaf",
-   "url": "https://fiftyflowers.com/products/salal-lemon-leaf-greenery"
+   "url": "https://fiftyflowers.com/products/salal-lemon-leaf-greenery",
+   "stemsPerBunch": 11.5
   },
   "60": {
    "flower": "Pittosporum",
-   "url": "https://fiftyflowers.com/products/pittosporum-greenery"
+   "url": "https://fiftyflowers.com/products/pittosporum-greenery",
+   "stemsPerBunch": 9
   },
   "61": {
    "flower": "Sword Fern",
-   "url": "https://fiftyflowers.com/products/sword-fern-greens"
+   "url": "https://fiftyflowers.com/products/sword-fern-greens",
+   "stemsPerBunch": 9
   },
   "70": {
    "flower": "Plumosus / Tree Fern",
-   "url": "https://fiftyflowers.com/products/plumosa-fern-greenery"
+   "url": "https://fiftyflowers.com/products/plumosa-fern-greenery",
+   "stemsPerBunch": 9
   },
   "9017": {
    "flower": "Nagi",
