@@ -64,6 +64,11 @@ def stems_in(text):
     """'150 Stems' -> 150.  '3-6 stems' -> 4.5.  '10 Garlands' -> 10.  No count -> None."""
     # Anything sold one piece at a time counts as one stem: a garland, a strand, a leaf, a bloom.
     m = re.search(RANGE + r"\s*(?:stems?|garlands?|strands?|vines?|leaves|leaf|blooms?|heads?|pieces?|branches|branch)\b", text or "", re.I)
+    if m:
+        return _avg(m.group(1), m.group(2))
+    # FiftyFlowers usually leads with the count: "25 Roses (1 Bunch)", "10 Phalaenopsis Orchid Stems".
+    # A leading number is the number of pieces, unless it is counting bunches, boxes or packs.
+    m = re.match(r"\s*" + RANGE + r"\s+(?!(?:grower'?s?\s+)?(?:bunch|box|pack|case|bundle))[A-Za-z]", text or "", re.I)
     return _avg(m.group(1), m.group(2)) if m else None
 
 
@@ -85,7 +90,7 @@ def options_for(product):
     per_bunch = stems_per_bunch(product)
     out = []
     for v in product.get("variants", []):
-        label = " ".join(str(x) for x in [v.get("title"), v.get("option1"), v.get("option2"), v.get("option3")] if x)
+        label = str(v.get("title") or v.get("option1") or "")
         stems = stems_in(label)
         if not stems:  # sold by the bunch: bunches x stems per bunch
             bunches = bunches_in(label)
@@ -125,6 +130,8 @@ def main():
                 # the best price, from the largest pack, for reference
                 "perStemBulk": round(bulk["price"] / bulk["stems"], 2),
                 "bulkPack": "%g stems for $%.2f" % (bulk["stems"], bulk["price"]),
+                # every pack on offer, so the tool can cost the pack an order would really buy
+                "packs": [{"stems": o["stems"], "price": round(o["price"], 2)} for o in options],
                 "product": product.get("title") or item.get("product", ""),
                 "flower": item.get("flower", ""),
                 "url": item["url"],
