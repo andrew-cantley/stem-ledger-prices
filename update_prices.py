@@ -216,7 +216,21 @@ def match_supplier(catalog, flowers):
     return out
 
 
-def read_suppliers(today):
+def compact_catalog(catalog):
+    """Every plain product with a readable pack: [name, handle, [[stems, price, id], ...]].
+    Stem Ledger searches this for flowers she adds herself, so they get prices too."""
+    out = []
+    for product in catalog:
+        title = str(product.get("title", ""))
+        if NOT_PLAIN.search(title.lower()):
+            continue
+        options = options_for(product)[:6]
+        if options:
+            out.append([title, product.get("handle", ""), [[o["stems"], round(o["price"], 2), o.get("id")] for o in options]])
+    return out
+
+
+def read_suppliers(today, catalogs):
     try:
         with open("suppliers.json", encoding="utf-8") as f:
             config = json.load(f)
@@ -226,6 +240,7 @@ def read_suppliers(today):
     for sup in config.get("suppliers", []):
         try:
             catalog = load_catalog(sup["site"])
+            catalogs[sup["name"]] = {"site": sup["site"], "products": compact_catalog(catalog)}
             found = match_supplier(catalog, config["flowers"])
             for fid, entry in found.items():
                 entry["url"] = "%s/products/%s" % (sup["site"].rstrip("/"), entry.pop("handle"))
@@ -254,7 +269,7 @@ def main():
         return 0
 
     today = datetime.date.today().isoformat()
-    prices, failed = {}, []
+    prices, failed, catalogs = {}, [], {}
     for flower_id, item in config["products"].items():
         try:
             if is_collection(item["url"]):
@@ -305,8 +320,19 @@ def main():
         "shippingIncluded": bool(config.get("shippingIncluded", False)),
         "prices": prices,
         # other stores, matched by name: check the product named beside each price
-        "suppliers": read_suppliers(today),
+        "suppliers": read_suppliers(today, catalogs),
     }
+    # the searchable list of everything each store sells, for flowers added in the tool
+    try:
+        main_site = config.get("site", "https://fiftyflowers.com")
+        catalogs[result["source"]] = {"site": main_site, "products": compact_catalog(load_catalog(main_site, 60))}
+    except Exception as err:
+        print("\nFAIL  catalog for %s: %s" % (result["source"], err))
+    if catalogs:
+        with open("catalog.json", "w", encoding="utf-8") as f:
+            json.dump({"app": "stem-ledger-catalog", "date": today, "stores": catalogs}, f, separators=(",", ":"), sort_keys=True)
+            f.write("\n")
+        print("\nWrote catalog.json: " + ", ".join("%s %d" % (n, len(c["products"])) for n, c in catalogs.items()))
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=1, sort_keys=True)
         f.write("\n")
