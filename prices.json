@@ -2878,19 +2878,44 @@
      "flower": "Standard / Hybrid Tea Rose",
      "packs": [
       {
-       "id": 21726403887186,
-       "price": 89.98,
+       "id": 40327358283858,
+       "price": 69.98,
+       "stems": 25.0
+      },
+      {
+       "id": 33108257610,
+       "price": 79.98,
        "stems": 50.0
       },
       {
-       "id": 21726403854418,
-       "price": 127.98,
+       "id": 40327359332434,
+       "price": 90.98,
+       "stems": 75.0
+      },
+      {
+       "id": 40327359397970,
+       "price": 99.98,
        "stems": 100.0
+      },
+      {
+       "id": 33108258698,
+       "price": 108.98,
+       "stems": 125.0
+      },
+      {
+       "id": 40327359463506,
+       "price": 158.98,
+       "stems": 150.0
+      },
+      {
+       "id": 40327359529042,
+       "price": 177.98,
+       "stems": 200.0
       }
      ],
-     "perStem": 1.8,
-     "product": "Do It Yourself Wired White Roses",
-     "url": "https://bloomingmore.com/products/do-it-yourself-wired-roses-white"
+     "perStem": 2.8,
+     "product": "White Roses - Choose from 25 to 200 Stems",
+     "url": "https://bloomingmore.com/products/roses-white"
     },
     "10": {
      "flower": "Calla Lily (standard)",
@@ -3349,14 +3374,14 @@
      "flower": "Lilac",
      "packs": [
       {
-       "id": 42852256481362,
-       "price": 148.98,
-       "stems": 90.0
+       "id": 12452330635346,
+       "price": 120.98,
+       "stems": 20.0
       }
      ],
-     "perStem": 1.66,
-     "product": "Lilac Campanula",
-     "url": "https://bloomingmore.com/products/lilac-campanula"
+     "perStem": 6.05,
+     "product": "Lilac",
+     "url": "https://bloomingmore.com/products/lilac-20-sems"
     },
     "42": {
      "flower": "Protea \u2013 Pincushion",
