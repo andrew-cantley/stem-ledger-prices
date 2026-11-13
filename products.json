@@ -311,7 +311,7 @@
    "stemsPerBunch": 7.5
   },
   "44": {
-   "flower": "Cosmos",
+   "flower": "Cosmos (chocolate)",
    "url": "https://fiftyflowers.com/products/chocolate-cosmos-flower",
    "note": "the only cosmos sold is chocolate cosmos"
   },
@@ -334,7 +334,7 @@
    "note": "product page: 5-8 stems"
   },
   "53": {
-   "flower": "Eucalyptus – Willow / Nicholii",
+   "flower": "Eucalyptus – Choose Your Own Pack (willow, seeded, silver dollar, gunni, baby blue)",
    "url": "https://fiftyflowers.com/collections/greenery/products/choose-your-own-eucalyptus-greenery-premium-pack",
    "stemsPerBunch": 6.5,
    "note": "product page: 5-8 stems; choose-your-own kit"
@@ -357,7 +357,7 @@
    "note": "stems per bunch not confirmed, so no price until it is"
   },
   "57": {
-   "flower": "Leatherleaf Fern",
+   "flower": "Wedding Greenery Mix (leatherleaf, pittosporum, ruscus, ivy, lily grass)",
    "url": "https://fiftyflowers.com/products/wedding-greenery-mix",
    "stemsPerBunch": 6.5,
    "note": "product page: 5-8 stems; mix of lily grass, leather leaf, ivy, Israeli ruscus, pittosporum"
@@ -387,11 +387,11 @@
    "note": "product page: 8-10 stems"
   },
   "9017": {
-   "flower": "Nagi",
+   "flower": "Nagi Greens Garland",
    "url": "https://fiftyflowers.com/products/nagi-greens-garland"
   },
   "9019": {
-   "flower": "Springeri (Asparagus Fern)",
+   "flower": "Plumosus and Sprengeri Greens Garland",
    "url": "https://fiftyflowers.com/products/plumosus-sprengeri-greens-garland"
   }
  },
@@ -399,5 +399,9 @@
   "Zinnia",
   "Clematis",
   "Myrtle"
+ ],
+ "_no_price_until_stems_per_bunch_is_confirmed": [
+  "Waxflower",
+  "Italian Ruscus"
  ]
 }

@@ -189,7 +189,8 @@ def main():
             print("ok    %-5s %-34s $%.2f a stem" % (flower_id, item.get("flower", "")[:34], prices[flower_id]["perStem"]))
         except Exception as err:
             failed.append(flower_id)
-            if flower_id in previous:  # keep last month's price rather than lose it
+            # keep last month's price rather than lose it, but only if it was for this same product
+            if flower_id in previous and previous[flower_id].get("url") == item["url"]:
                 prices[flower_id] = previous[flower_id]
             print("FAIL  %-5s %-34s %s" % (flower_id, item.get("flower", "")[:34], err))
         time.sleep(PAUSE_SECONDS)

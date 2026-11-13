@@ -1483,43 +1483,6 @@
    "product": "Baby Eucalyptus Greenery",
    "url": "https://fiftyflowers.com/products/baby-eucalyptus-greenery"
   },
-  "55": {
-   "asOf": "2026-11-13",
-   "bulkPack": "30 stems for $404.99",
-   "flower": "Italian Ruscus",
-   "pack": "7 stems for $239.99",
-   "packs": [
-    {
-     "id": 37680287711394,
-     "price": 239.99,
-     "stems": 7.0
-    },
-    {
-     "id": 37680287482018,
-     "price": 159.99,
-     "stems": 8.0
-    },
-    {
-     "id": 37680287744162,
-     "price": 404.99,
-     "stems": 14.0
-    },
-    {
-     "id": 37680287547554,
-     "price": 239.99,
-     "stems": 15.0
-    },
-    {
-     "id": 37680287645858,
-     "price": 404.99,
-     "stems": 30.0
-    }
-   ],
-   "perStem": 34.28,
-   "perStemBulk": 13.5,
-   "product": "Sunflowers and Fall Colors Flower Centerpieces",
-   "url": "https://fiftyflowers.com/products/floral-centerpieces-sunflowers-and-fall-colors"
-  },
   "56": {
    "asOf": "2026-11-13",
    "bulkPack": "450 stems for $334.99",
