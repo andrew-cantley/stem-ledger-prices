@@ -2,7 +2,7 @@ name: Update flower prices
 
 on:
   schedule:
-    - cron: "23 21 1 * *"   # the 1st of every month, 2:23 pm Mountain (standard time)
+    - cron: "23 11 * * 1"   # every Monday, 4:23 am Mountain (standard time)
   workflow_dispatch: {}      # also lets you run it by hand from the Actions tab
 
 permissions:
