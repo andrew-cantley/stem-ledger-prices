@@ -1,0 +1,20 @@
+# Supabase pauses a free project after 7 days with no activity. One small read a day keeps the
+# Stem Ledger project awake so sign-in, sync, invoices and signing keep working in a quiet week.
+# The address and key below are the project's public values (the same ones built into the tool).
+name: Keep Supabase awake
+on:
+  schedule:
+    - cron: "17 13 * * *"   # every day, about 6:17 am Mountain
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read one row
+        run: |
+          code=$(curl -sS -o /tmp/out.txt -w "%{http_code}" --max-time 30 \
+            "https://ekzkpqafskntswvocawb.supabase.co/rest/v1/profiles?select=plan&limit=1" \
+            -H "apikey: sb_publishable_Spjgz4_E0M95xsji3bhx5w_A4Xo8e04" \
+            -H "Authorization: Bearer sb_publishable_Spjgz4_E0M95xsji3bhx5w_A4Xo8e04")
+          echo "Supabase answered $code"
+          if [ "$code" != "200" ]; then cat /tmp/out.txt; echo "The project did not answer. If it is paused, restore it from the Supabase dashboard."; exit 1; fi
